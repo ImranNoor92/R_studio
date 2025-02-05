@@ -1,0 +1,246 @@
+---
+title: "Jelly_roll_fold"
+author: "Imran_Noor"
+date: "2025-02-04"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+install.packages("tidyverse")
+install.packages("sunburstR")
+install.packages("ggplot2")
+install.packages("ggsunburst")
+install.packages("ggplotify")
+install.packages("dplyr")
+install.packages("tibble")
+
+library(tidyverse)
+library(sunburstR)
+library(ggforce)
+library(ggplot2)
+library(ggsunburst)
+library(dplyr)
+library(ggplotify)
+library(tibble)
+
+```
+
+
+```{r}
+
+# Read the main HMMER results
+hmmer <- read.csv("All_DTRs_domtblout.csv")
+
+
+# Read the jelly roll PFAM list.
+# This file should have a column (here assumed to be named 'accession') containing PFAM IDs like "PF17288"
+jr_pfam <- read_csv("jr_pfam.csv")
+
+# Read the biome information file.
+# This file should contain, for example, a 'query_name' column that we can join with the main file,
+# and a column with biome information (here assumed to be 'biome').
+biome_info <- read_csv("DTRs_20kb.csv")
+
+```
+
+```{r}
+glimpse(hmmer)
+glimpse(biome_info)
+glimpse(jr_pfam)
+```
+```{r}
+jr_ids <- jr_pfam %>% 
+  pull(`PFAM Accession Number`) %>% 
+  trimws()
+hmmer <- hmmer %>%
+  mutate(
+    # Remove the dot and everything after it in the PFAM accession
+    pfam_no_decimal = sub("\\..*", "", accession),
+    # Flag rows as jelly roll if the cleaned PFAM accession is in jr_ids
+    is_jr = pfam_no_decimal %in% jr_ids,
+    # Extract the genome_id from query_name by removing the underscore and the trailing number.
+    # This assumes your query_name format is something like "DTR_028342_1".
+    genome_id = sub("_[0-9]+$", "", query_name)
+  )
+hmmer <- left_join(hmmer, biome_info, by = "genome_id")
+glimpse(hmmer)
+
+
+# Filter HMMER results to only those flagged as jelly roll hits
+hmmer_jr <- hmmer %>% 
+  filter(is_jr)
+
+# Summarize the count of jelly roll entries by the primary biome (biome1)
+summary_biome <- hmmer_jr %>% 
+  group_by(biome1) %>% 
+  summarise(count = n(), .groups = "drop")
+
+# View the summary
+print(summary_biome)
+```
+
+
+```{r}
+jrdba <- ggplot(summary_biome, aes(x = biome1, y = count)) +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  theme_minimal() +
+  labs(
+    title = "Distribution of Jelly Roll PFAM Entries by Biome",
+    x = "Biome",
+    y = "Count"
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+jrdba
+```
+```{r}
+# Aggregate counts by biome1 and biome2
+sunburst_data_biome2 <- hmmer_jr %>%
+  group_by(biome1, biome2) %>%
+  summarise(count = n(), .groups = "drop") %>%
+  mutate(path = paste(biome1, biome2, sep = "-")) %>%
+  select(path, count)
+
+# Create the sunburst chart with a custom color palette
+sunburst_biome2 <- sunburst(sunburst_data_biome2, 
+                            count = TRUE,
+                            colors = list(range = c("#66C2A5", "#FC8D62", "#8DA0CB", "#E78AC3", "#A6D854")))
+# Print or view the interactive chart
+sunburst_biome2
+
+```
+
+
+```{r}
+# Aggregate counts by biome1 and biome3
+sunburst_data_biome3 <- hmmer_jr %>%
+  group_by(biome1, biome3) %>%
+  summarise(count = n(), .groups = "drop") %>%
+  mutate(path = paste(biome1, biome3, sep = "-")) %>%
+  select(path, count)
+
+# Create the sunburst chart with a different custom color palette
+sunburst_biome3 <- sunburst(sunburst_data_biome3, 
+                            count = TRUE,
+                            colors = list(range = c("#A6CEE3", "#1F78B4", "#B2DF8A", "#33A02C", "#FB9A99")))
+# View the chart
+sunburst_biome3
+
+```
+
+
+```{r}
+# Aggregate counts by biome1, biome2, and biome3
+sunburst_data_combined <- hmmer_jr %>%
+  group_by(biome1, biome2, biome3) %>%
+  summarise(count = n(), .groups = "drop") %>%
+  mutate(path = paste(biome1, biome2, biome3, sep = "-")) %>%
+  select(path, count)
+
+# Create the sunburst chart with a custom color palette
+sunburst_combined <- sunburst(sunburst_data_combined, 
+                              count = TRUE,
+                              colors = list(range = c("#E41A1C", "#377EB8", "#4DAF4A",
+                                                       "#984EA3", "#FF7F00", "#FFFF33", "#A65628")))
+# View the chart
+sunburst_combined
+
+```
+
+```{r}
+# Ensure hmmer_jr is filtered to jelly roll entries
+hmmer_jr <- hmmer %>% filter(is_jr)
+
+# Function to calculate percentages for plotting
+calculate_percentages <- function(df, group_vars) {
+  df %>%
+    group_by(across(all_of(group_vars))) %>%
+    summarise(count = n(), .groups = "drop") %>%
+    mutate(percentage = count / sum(count) * 100)
+}
+
+
+```
+
+
+```{r}
+# Summarize counts
+sun_data_biome2 <- calculate_percentages(hmmer_jr, c("biome1", "biome2"))
+
+# Create the sunburst plot
+ggplot(sun_data_biome2, aes(fill = biome1, y = count, x = factor(biome2, levels = unique(biome2)))) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar(theta = "y") +  # Create sunburst effect
+  theme_void() +
+  labs(title = "Jelly Roll Fold Distribution: Biome1 → Biome2") +
+  geom_text(aes(label = paste0(round(percentage, 1), "%")), 
+            position = position_stack(vjust = 0.5), size = 5) +
+  scale_fill_manual(values = c("#66C2A5", "#FC8D62", "#8DA0CB", "#E78AC3", "#A6D854")) +  # Custom colors
+  theme(legend.position = "right")
+
+```
+```{r}
+# Summarize counts
+sun_data_biome3 <- calculate_percentages(hmmer_jr, c("biome1", "biome3"))
+
+# Create the sunburst plot
+ggplot(sun_data_biome3, aes(fill = biome1, y = count, x = factor(biome3, levels = unique(biome3)))) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar(theta = "y") +  
+  theme_void() +
+  labs(title = "Jelly Roll Fold Distribution: Biome1 → Biome3") +
+  geom_text(aes(label = paste0(round(percentage, 1), "%")), 
+            position = position_stack(vjust = 0.5), size = 5) +
+  scale_fill_manual(values = c("#A6CEE3", "#1F78B4", "#B2DF8A", "#33A02C", "#FB9A99")) +
+  theme(legend.position = "right")
+
+```
+```{r}
+# Summarize counts
+sun_data_biome3 <- calculate_percentages(hmmer_jr, c("biome1", "biome3"))
+
+# Create the sunburst plot
+ggplot(sun_data_biome3, aes(fill = biome1, y = count, x = factor(biome3, levels = unique(biome3)))) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar(theta = "y") +  
+  theme_void() +
+  labs(title = "Jelly Roll Fold Distribution: Biome1 → Biome3") +
+  geom_text(aes(label = paste0(round(percentage, 1), "%")), 
+            position = position_stack(vjust = 0.5), size = 5) +
+  scale_fill_manual(values = c("#A6CEE3", "#1F78B4", "#B2DF8A", "#33A02C", "#FB9A99")) +
+  theme(legend.position = "right")
+
+```
+
+```{r}
+# Create a function to prepare the data
+prepare_sunburst_data <- function(df, levels) {
+  df %>%
+    group_by(across(all_of(levels))) %>%
+    summarise(count = n(), .groups = "drop") %>%
+    mutate(path = paste(!!!syms(levels), sep = "-")) %>%
+    select(path, count)
+}
+```
+
+
+```{r}
+# Prepare data
+sunburst_data_biome2 <- prepare_sunburst_data(hmmer_jr, c("biome1", "biome2"))
+
+# Convert to sunburst format
+sb <- sunburst(sunburst_data_biome2)
+
+# Plot
+plot_sb1 <- ggplotify::as.ggplot(sb) +
+  ggtitle("Jelly Roll Distribution: Biome1 → Biome2") +
+  theme(legend.position = "right")
+
+# Display the plot
+print(plot_sb1)
+
+```
+
