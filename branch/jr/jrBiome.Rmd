@@ -2,7 +2,9 @@
 title: "Jelly_roll_fold"
 author: "Imran_Noor"
 date: "2025-02-04"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
@@ -13,11 +15,14 @@ knitr::opts_chunk$set(echo = TRUE)
 # install.packages("tidyverse")
 # install.packages("sunburstR")
 # install.packages("ggplot2")
-#install_github("didacs/ggsunburst")
+# install.packages("devtools")
+# install.packages("reshape2")
+# install_github("didacs/ggsunburst")
 # install.packages("ggplotify")
 # install.packages("dplyr")
 # install.packages("tibble")
-#library(devtools)
+#devtools::install_github("timelyportfolio/sunburstR")
+library(devtools)
 library(tidyverse)
 library(sunburstR)
 library(ggforce)
@@ -26,6 +31,7 @@ library(ggsunburst)
 library(dplyr)
 library(ggplotify)
 library(tibble)
+library(htmltools)
 
 ```
 
@@ -47,41 +53,117 @@ biome_info <- read_csv("DTRs_20kb.csv")
 
 ```
 
-```{r}
-# glimpse(hmmer)
-# glimpse(biome_info)
-# glimpse(jr_pfam)
-```
 
 ```{r}
-#
-jr_ids <- jr_pfam %>% 
-  pull(`PFAM Accession Number`) %>% 
-  trimws() # Remove leading/trailing whitespace
+# 1. Read and combine your search-result TSV files
+# Adjust the pattern if your file names differ.
+tsv_files <- list.files(pattern = "^SearchResults-.*\\.tsv$")
+# Read the biome information file.
+# This file should contain, for example, a 'query_name' column that we can join with the main file,
+# and a column with biome information (here assumed to be 'biome').
+biome_info <- read_csv("DTRs_20kb.csv")
+# 3. Read the additional PFAM entries from the CSV file.
+old_pfam <- read.csv("jr_pfam.csv", header = TRUE, stringsAsFactors = FALSE)
+# Rename the column containing PFAM accessions to "accession" for consistency.
+old_pfam <- old_pfam %>% 
+  rename(accession = PFAM.Accession.Number)
+# Read each file and combine them into one data frame.
+search_results <- lapply(tsv_files, function(file) {
+  read_tsv(file, col_types = cols())
+}) %>% 
+  bind_rows()
+
+# 2. Remove duplicate entries based on the Accession column.
+search_results <- search_results %>% 
+  distinct(Accession, .keep_all = TRUE)
+#write_csv(search_results, "search_results.csv")
+# 3. Filter to include only entries from PFAM in the Source Database column.
+search_results <- search_results %>% 
+  filter(`Source Database` == "PFAM")
+# Rename the 'Accession' column to lowercase 'accession'
+# so that it matches the column name in your reference file.
+search_results <- search_results %>% 
+  rename(accession = Accession)
+
+
+
+# 4. Combine PFAM accession values from both sources.
+#    We use union() to get the unique PFAM accession values from both datasets.
+all_pfams <- union(search_results$accession, old_pfam$accession)
+all_pfams_df <- data.frame(accession = all_pfams, stringsAsFactors = FALSE)
+
+# Or, if you prefer using tibble (from the tidyverse):
+all_pfams_df <- tibble(accession = all_pfams)
+# 5. Read your main reference file.
+#    Replace "your_reference_file.tsv" with the actual filename.
+reference <- read_csv("All_DTRs_domtblout.csv", col_types = cols())
+
+# 6. Clean the reference file’s 'accession' column by removing the decimal part.
+#    For example, this turns "PF00001.1" into "PF00001".
+reference <- reference %>%
+  mutate(accession = sub("\\..*", "", accession))
+
+# 7. Filter the reference file so that only rows with a PFAM accession in 'all_pfams' are retained.
+final_reference <- reference %>% 
+  filter(accession %in% all_pfams)
+#make acession column in final_reference factor then check levels
+final_reference$accession <- as.factor(final_reference$accession)
+final_reference$target_name <- as.factor(final_reference$target_name)
+levels(final_reference$accession)
+levels(final_reference$target_name)
+all_pfams_df$accession <- as.factor(all_pfams_df$accession)
+levels(all_pfams_df$accession)
+# 8. Export the final filtered reference file as a CSV.
+#write_csv(final_reference, "final_joined.csv")
+
+# Suppose your final_reference data frame has a column "query_name"
+# Create a new column "query_name_clean" by removing an underscore and trailing digits:
+final_reference <- final_reference %>%
+  mutate(query_name_clean = sub("_[0-9]+$", "", query_name))
+
+# Check the transformation:
+head(final_reference$query_name_clean)
+
+# Now, perform the left join using the cleaned column from final_reference 
+# and matching it to the "genome_id" column in biome_info.
+biome_info <- read.csv("DTRs_20kb.csv", header = T)
+hmmer <- left_join(final_reference, biome_info, by = c("query_name_clean" = "genome_id"))
 hmmer <- hmmer %>%
-  mutate(
-    # Remove the dot and everything after it in the PFAM accession
-    pfam_no_decimal = sub("\\..*", "", accession),
-    # Flag rows as jelly roll if the cleaned PFAM accession is in jr_ids
-    is_jr = pfam_no_decimal %in% jr_ids,
-    # Extract the genome_id from query_name by removing the underscore and the trailing number.
-    # This assumes your query_name format is something like "DTR_028342_1".
-    genome_id = sub("_[0-9]+$", "", query_name)
-  )
-hmmer <- left_join(hmmer, biome_info, by = "genome_id") #$ Join the biome information to the main HMMER results
-# Note: You may need to adjust the join columns based on your actual data structure.
-# The 'genome_id' column is assumed to be present in both files and used for joining.
-glimpse(hmmer)
+  mutate(across(c(biome1, biome2, biome3), ~ gsub("-", "_", .)))
+hmmer_jr <- hmmer
+
+```
+
+
+```{r}
+# #
+# jr_ids <- jr_pfam %>% 
+#   pull(`PFAM Accession Number`) %>% 
+#   trimws() # Remove leading/trailing whitespace
+# hmmer <- hmmer %>%
+#   mutate(
+#     # Remove the dot and everything after it in the PFAM accession
+#     pfam_no_decimal = sub("\\..*", "", accession),
+#     # Flag rows as jelly roll if the cleaned PFAM accession is in jr_ids
+#     is_jr = pfam_no_decimal %in% jr_ids,
+#     # Extract the genome_id from query_name by removing the underscore and the trailing number.
+#     # This assumes your query_name format is something like "DTR_028342_1".
+#     genome_id = sub("_[0-9]+$", "", query_name)
+#   )
+# hmmer <- left_join(hmmer, biome_info, by = "genome_id") #$ Join the biome information to the main HMMER results
+# # Note: You may need to adjust the join columns based on your actual data structure.
+# # The 'genome_id' column is assumed to be present in both files and used for joining.
+# glimpse(hmmer)
 
 ```
 
 ```{r}
-# Filter HMMER results to only those flagged as jelly roll hits
-hmmer_jr <- hmmer %>% 
-  filter(is_jr)
-# Export the hmmer_jr data frame to a CSV file
-write.csv(hmmer_jr, "hmmer_jr.csv", row.names = FALSE)
-hmmer_jr <- read.csv("hmmer_jr.csv")
+# # Filter HMMER results to only those flagged as jelly roll hits
+# hmmer_jr <- hmmer %>% 
+#   filter(is_jr)
+# # Export the hmmer_jr data frame to a CSV file
+# write.csv(hmmer_jr, "hmmer_jr.csv", row.names = FALSE)
+# hmmer_jr <- read.csv("hmmer_jr.csv")
 ```
 
 
@@ -100,6 +182,7 @@ summary_biome2 <- hmmer_jr %>%
   summarise(count = n(), .groups = "drop")
 summary_biome2
 ```
+
 ```{r}
 # Summarize the count of jelly roll entries by the tertiary biome (biome3)
 summary_biome3 <- hmmer_jr %>% 
@@ -119,8 +202,10 @@ summary_biomes <- bind_rows(
 
 # Check the combined data
 summary_biomes
+str(summary_biomes)
 
 ```
+
 ```{r}
 # Step 2. Plot Options 1
 # Option 1: Faceted Bar Plot
@@ -137,6 +222,7 @@ summary_plot1 <- ggplot(summary_biomes, aes(x = reorder(Biome, count), y = count
 summary_plot1
 
 ```
+
 ```{r}
 # Step 2. Plot Options 2
 # Option 2:  Faceted Bar Plot
@@ -172,15 +258,6 @@ summary_plot3 <- ggplot(summary_biomes, aes(x = Biome_Level, y = count, fill = B
 summary_plot3
 
 ```
-```{r}
-# Install devtools if not already installed
-install.packages("devtools")
-
-# Install the latest sunburstR from GitHub
-devtools::install_github("timelyportfolio/sunburstR")
-library(sunburstR)
-
-```
 
 ```{r}
 # Load required packages
@@ -204,32 +281,55 @@ print(sunburst_summary)
 
 # Create the sunburst chart using the prepared data
 sunburst_combined <- sunburst(sunburst_summary)
-sunburst_combined
+sunburstR::sunburst(sunburst_summary)
 
 
+```
+#Everything works upto this point
+##########
+Old plots
+```{r}
+# jrdba <- ggplot(summary_biome, aes(x = biome1, y = count)) +
+#   geom_bar(stat = "identity", fill = "steelblue") +
+#   theme_minimal() +
+#   labs(
+#     title = "Distribution of Jelly Roll PFAM Entries by Biome",
+#     x = "Biome",
+#     y = "Count"
+#   ) +
+#   theme(axis.text.x = element_text(angle = 45, hjust = 1))
+# jrdba
 ```
 
 
 ```{r}
-jrdba <- ggplot(summary_biome, aes(x = biome1, y = count)) +
-  geom_bar(stat = "identity", fill = "steelblue") +
-  theme_minimal() +
-  labs(
-    title = "Distribution of Jelly Roll PFAM Entries by Biome",
-    x = "Biome",
-    y = "Count"
-  ) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
-jrdba
+sunburst_summary <- sunburst_summary %>%
+  mutate(color = case_when(
+    grepl("Biome1", sequence) ~ "#E41A1C",
+    grepl("Biome2", sequence) ~ "#377EB8",
+    grepl("Biome3", sequence) ~ "#4DAF4A",
+    TRUE ~ "#984EA3"
+  ))
+# Convert data frame to a properly structured list
+sunburst_list <- list(
+  sequence = sunburst_summary$sequence,
+  size = sunburst_summary$size,
+  color = sunburst_summary$color
+)
+
+# Now, create the sunburst chart
+sunburst_combined <- sunburst(sunburst_list)
 ```
+
+
 ```{r}
-# Aggregate counts by biome1 and biome2
+
 sunburst_data_biome2 <- hmmer_jr %>%
   group_by(biome1, biome2) %>%
   summarise(count = n(), .groups = "drop") %>%
-  mutate(path = paste(biome1, biome2, sep = "-")) %>%
-  select(path, count)
-
+  mutate(sequence = paste(biome1, biome2, sep = "-")) %>%
+  select(sequence, count)  # Rename 'path' to 'sequence' for consistency
+sunburst_biome2 <- sunburst(sunburst_data_biome2)
 # Create the sunburst chart with a custom color palette
 sunburst_biome2 <- sunburst(sunburst_data_biome2, 
                             count = TRUE,
@@ -273,100 +373,6 @@ sunburst_combined <- sunburst(sunburst_data_combined,
                                                        "#984EA3", "#FF7F00", "#FFFF33", "#A65628")))
 # View the chart
 sunburst_combined
-
-```
-
-```{r}
-# Ensure hmmer_jr is filtered to jelly roll entries
-hmmer_jr <- hmmer %>% filter(is_jr)
-
-# Function to calculate percentages for plotting
-calculate_percentages <- function(df, group_vars) {
-  df %>%
-    group_by(across(all_of(group_vars))) %>%
-    summarise(count = n(), .groups = "drop") %>%
-    mutate(percentage = count / sum(count) * 100)
-}
-
-
-```
-
-
-```{r}
-# Summarize counts
-sun_data_biome2 <- calculate_percentages(hmmer_jr, c("biome1", "biome2"))
-
-# Create the sunburst plot
-ggplot(sun_data_biome2, aes(fill = biome1, y = count, x = factor(biome2, levels = unique(biome2)))) +
-  geom_bar(stat = "identity", width = 1) +
-  coord_polar(theta = "y") +  # Create sunburst effect
-  theme_void() +
-  labs(title = "Jelly Roll Fold Distribution: Biome1 → Biome2") +
-  geom_text(aes(label = paste0(round(percentage, 1), "%")), 
-            position = position_stack(vjust = 0.5), size = 5) +
-  scale_fill_manual(values = c("#66C2A5", "#FC8D62", "#8DA0CB", "#E78AC3", "#A6D854")) +  # Custom colors
-  theme(legend.position = "right")
-
-```
-```{r}
-# Summarize counts
-sun_data_biome3 <- calculate_percentages(hmmer_jr, c("biome1", "biome3"))
-
-# Create the sunburst plot
-ggplot(sun_data_biome3, aes(fill = biome1, y = count, x = factor(biome3, levels = unique(biome3)))) +
-  geom_bar(stat = "identity", width = 1) +
-  coord_polar(theta = "y") +  
-  theme_void() +
-  labs(title = "Jelly Roll Fold Distribution: Biome1 → Biome3") +
-  geom_text(aes(label = paste0(round(percentage, 1), "%")), 
-            position = position_stack(vjust = 0.5), size = 5) +
-  scale_fill_manual(values = c("#A6CEE3", "#1F78B4", "#B2DF8A", "#33A02C", "#FB9A99")) +
-  theme(legend.position = "right")
-
-```
-```{r}
-# Summarize counts
-sun_data_biome3 <- calculate_percentages(hmmer_jr, c("biome1", "biome3"))
-
-# Create the sunburst plot
-ggplot(sun_data_biome3, aes(fill = biome1, y = count, x = factor(biome3, levels = unique(biome3)))) +
-  geom_bar(stat = "identity", width = 1) +
-  coord_polar(theta = "y") +  
-  theme_void() +
-  labs(title = "Jelly Roll Fold Distribution: Biome1 → Biome3") +
-  geom_text(aes(label = paste0(round(percentage, 1), "%")), 
-            position = position_stack(vjust = 0.5), size = 5) +
-  scale_fill_manual(values = c("#A6CEE3", "#1F78B4", "#B2DF8A", "#33A02C", "#FB9A99")) +
-  theme(legend.position = "right")
-
-```
-
-```{r}
-# Create a function to prepare the data
-prepare_sunburst_data <- function(df, levels) {
-  df %>%
-    group_by(across(all_of(levels))) %>%
-    summarise(count = n(), .groups = "drop") %>%
-    mutate(path = paste(!!!syms(levels), sep = "-")) %>%
-    select(path, count)
-}
-```
-
-
-```{r}
-# Prepare data
-sunburst_data_biome2 <- prepare_sunburst_data(hmmer_jr, c("biome1", "biome2"))
-
-# Convert to sunburst format
-sb <- sunburst(sunburst_data_biome2)
-
-# Plot
-plot_sb1 <- ggplotify::as.ggplot(sb) +
-  ggtitle("Jelly Roll Distribution: Biome1 → Biome2") +
-  theme(legend.position = "right")
-
-# Display the plot
-print(plot_sb1)
 
 ```
 
