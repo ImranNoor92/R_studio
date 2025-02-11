@@ -2,6 +2,10 @@
 library(highcharter)
 library(dplyr)
 library(htmlwidgets)
+library(webshot)
+setwd("branch/jr")
+dir()
+hmmer_jr <- read.csv("hmmer_jr.csv")
 # Aggregate counts for each Biome Level
 summary_biome1 <- hmmer_jr %>% 
   group_by(biome1) %>% 

@@ -1,0 +1,80 @@
+### **Brainstorming Meaningful Visual Representations**  
+
+Since all `hmmer_jr` entries contain **jelly roll**, our goal is to:  
+1. **Visualize capsid diversity** (size, structure, host specificity, origin)  
+2. **Explore viral vs non-viral elements**  
+3. **Find relationships between contig features and biomes**  
+4. **Identify potential evolutionary trends**  
+
+---
+
+## **🔬 New Visualization Ideas**  
+
+### **1. Viral vs Non-Viral Capsids**  
+   - **Plot:** **Stacked bar chart / Sankey diagram**  
+   - **X-axis:** `biome1`  
+   - **Y-axis:** Count of contigs  
+   - **Fill:** Categories: `genes_viral`, `genes_plasmid`, `genes_microbial`, `genes_unknown`  
+   - **Goal:** Differentiate between **viral and non-viral** sequences in different environments.  
+
+---
+
+### **2. Capsid Size vs. Viral Genes**  
+   - **Plot:** **Scatter plot with trendline**  
+   - **X-axis:** `contig_length`  
+   - **Y-axis:** `genes_viral`  
+   - **Color:** `T_number`  
+   - **Goal:** Explore if **larger capsids** carry **more viral genes** or **diverse genetic content**.  
+
+---
+
+### **3. T-number Distribution by Biome**  
+   - **Plot:** **Heatmap**  
+   - **X-axis:** `biome1`  
+   - **Y-axis:** `T_number`  
+   - **Color:** Frequency of occurrence  
+   - **Goal:** Identify **which biomes contain different capsid sizes**.  
+
+---
+
+### **4. Biome-Specific Contig Length Distributions**  
+   - **Plot:** **Violin plot / Boxplot**  
+   - **X-axis:** `biome1`  
+   - **Y-axis:** `contig_length`  
+   - **Color:** Biome type  
+   - **Goal:** Compare capsid size distributions across biomes.  
+
+---
+
+### **5. T-number vs. Genome Composition**  
+   - **Plot:** **Parallel coordinates plot**  
+   - **Features:** `genes_viral`, `genes_plasmid`, `genes_microbial`, `genes_unknown`, `T_number`  
+   - **Goal:** Compare **genetic composition** of different **T-numbers**.  
+
+---
+
+### **6. Evolutionary Origin: Biome → Capsid Type**  
+   - **Plot:** **Sunburst Chart / Circular Dendrogram**  
+   - **Levels:** `biome1` → `biome2` → `T_number`  
+   - **Goal:** Show hierarchical **capsid evolution** across environments.  
+
+---
+
+### **7. DTR Length vs. Capsid Type**  
+   - **Plot:** **Scatter plot**  
+   - **X-axis:** `contig_length`  
+   - **Y-axis:** `dtr_length`  
+   - **Color:** `T_number`  
+   - **Goal:** Investigate **if direct terminal repeats (DTR) impact capsid diversity**.  
+
+---
+
+### **8. Phylogenetic Reconstruction of Capsid Evolution**  
+   - **Approach:** Use `accession` (Pfam IDs) to reconstruct phylogenetic relationships  
+   - **Plot:** **Dendrogram**  
+   - **Goal:** Find **clustering of jelly roll proteins by T-number, biome, or function**.  
+
+---
+
+## **💡 Next Steps: Prioritization**  
+Which **three plots** do you want to start with? 🚀

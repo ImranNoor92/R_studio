@@ -1,0 +1,234 @@
+---
+title: "multi_plot"
+author: "MD IMRAN NOOR"
+date: "2025-02-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+#install.packages(c("ggplot2", "dplyr", "ggalluvial", "ggcorrplot", "ggridges", "reshape2", "plotly"))
+```
+
+
+<!-- --- -->
+
+<!-- ### **1️⃣ Viral vs Non-Viral Capsids (Stacked Bar Chart)** -->
+<!-- This plot shows how viral vs. non-viral sequences distribute across biomes. -->
+
+```{r, warning=FALSE, message=FALSE}
+# Load necessary libraries
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+
+```
+
+
+```{r}
+# Summarize data by biome1
+hmmer_jr <- read.csv("hmmer_jre.csv")
+viral_counts <- hmmer_jr %>%
+  group_by(biome1) %>%
+  summarise(
+    Viral = sum(genes_viral, na.rm = TRUE),
+    Plasmid = sum(genes_plasmid, na.rm = TRUE),
+    Microbial = sum(genes_microbial, na.rm = TRUE),
+    Unknown = sum(genes_unknown, na.rm = TRUE)
+  ) %>% pivot_longer(cols = -biome1, names_to = "Category", values_to = "Count")
+```
+
+
+```{r}
+# Stacked bar chart
+# Remove 'Unknown' category
+viral_counts_filtered <- viral_counts %>%
+  filter(Category != "Unknown")
+
+# Stacked bar chart without 'Unknown'
+ggplot(viral_counts_filtered, aes(x = biome1, y = Count, fill = Category)) +
+  geom_bar(stat = "identity", position = "stack") +
+  theme_minimal() +
+  labs(
+    x = "Biome",
+    y = "Contig Count",
+    fill = "Category",
+    title = "Viral vs. Non-Viral Capsids Across Biomes (Filtered)"
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.1)))  # Adjusts y-axis for better visibility
+
+```
+
+<!-- --- -->
+
+<!-- ### **2️⃣ Capsid Size vs. Viral Genes (Scatter Plot)** -->
+<!-- This examines whether larger capsids contain more viral genes. -->
+
+```{r}
+# Load necessary library
+library(dplyr)
+
+# Define T-number categories based on contig length
+hmmer_jr <- hmmer_jr %>%
+  mutate(
+    T_number = case_when(
+      contig_length <= 5000 ~ "Mini",
+      contig_length > 5000 & contig_length <= 10000 ~ "T=1",
+      contig_length > 10000 & contig_length <= 12500 ~ "T≈2",
+      contig_length > 12500 & contig_length <= 15000 ~ "T=3",
+      contig_length > 15000 & contig_length <= 20000 ~ "T=4",
+      TRUE ~ "Unknown"  # For any unexpected values
+    )
+  )
+
+# Check if T_number is assigned properly
+table(hmmer_jr$T_number)
+
+```
+
+
+```{r}
+ggplot(hmmer_jr, aes(x = contig_length, y = genes_viral, color = T_number)) +
+  geom_point(alpha = 0.7, size = 3) +
+  geom_smooth(method = "lm", se = FALSE, color = "black") + # Trendline
+  scale_x_log10() +
+  theme_minimal() +
+  labs(
+    x = "Capsid Size (bp, Log Scale)",
+    y = "Number of Viral Genes",
+    color = "T-number",
+    title = "Capsid Size vs. Viral Gene Content"
+  )
+```
+
+<!-- --- -->
+
+<!-- ### **3️⃣ T-number Distribution by Biome (Heatmap)** -->
+<!-- This identifies which biomes contain different capsid sizes. -->
+
+```{r}
+library(ggplot2)
+library(reshape2)
+
+# Count occurrences of each T-number in each biome
+t_number_counts <- hmmer_jr %>%
+  count(biome1, T_number) %>%
+  pivot_wider(names_from = T_number, values_from = n, values_fill = 0)
+
+# Convert to long format for heatmap
+t_number_melt <- melt(t_number_counts, id.vars = "biome1")
+
+# Heatmap
+ggplot(t_number_melt, aes(x = biome1, y = variable, fill = value)) +
+  geom_tile() +
+  scale_fill_gradient(low = "gray", high = "orange") +
+  theme_minimal() +
+  labs(
+    x = "Biome",
+    y = "T-number",
+    fill = "Frequency",
+    title = "T-number Distribution Across Biomes"
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+<!-- --- -->
+
+<!-- ### **4️⃣ Biome-Specific Contig Length Distributions (Violin Plot)** -->
+<!-- This shows how capsid sizes differ across biomes. -->
+
+```{r}
+ggplot(hmmer_jr, aes(x = biome1, y = contig_length, fill = biome1)) +
+  geom_violin(alpha = 0.6) +
+  geom_boxplot(width = 0.2, color = "black") + # Add boxplot inside violin
+  scale_y_log10() +
+  theme_minimal() +
+  labs(
+    x = "Biome",
+    y = "Capsid Length (bp, Log Scale)",
+    fill = "Biome",
+    title = "Capsid Length Distributions by Biome"
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+<!-- --- -->
+
+<!-- ### **5️⃣ T-number vs. Genome Composition (Parallel Coordinates Plot)** -->
+<!-- This compares the genetic makeup of different capsid T-numbers. -->
+
+```{r}
+library(GGally)
+
+# Select relevant columns
+capsid_data <- hmmer_jr %>%
+  select(T_number, genes_viral, genes_plasmid, genes_microbial, genes_unknown)
+
+# Parallel coordinates plot
+ggparcoord(capsid_data, columns = 2:5, groupColumn = 1, scale = "globalminmax") +
+  theme_minimal() +
+  labs(
+    x = "Genomic Features",
+    y = "Scaled Values",
+    title = "T-number vs. Genome Composition"
+  )
+```
+
+<!-- --- -->
+
+<!-- ### **6️⃣ Evolutionary Origin: Biome → Capsid Type (Sunburst Chart)** -->
+<!-- This represents how different biomes lead to capsid types. -->
+
+```{r}
+library(plotly)
+
+# Aggregate counts
+sunburst_data <- hmmer_jr %>%
+  count(biome1, biome2, T_number)
+
+# Create sunburst plot
+plot_ly(sunburst_data, labels = ~biome2, parents = ~biome1, values = ~n, type = 'sunburst')
+
+print(sunburst_data)
+
+```
+
+<!-- --- -->
+
+<!-- ### **7️⃣ DTR Length vs. Capsid Type (Scatter Plot)** -->
+<!-- Investigates the impact of direct terminal repeats on capsid diversity. -->
+
+```{r}
+ggplot(hmmer_jr, aes(x = contig_length, y = dtr_length, color = T_number)) +
+  geom_point(alpha = 0.7, size = 3) +
+  geom_smooth(method = "lm", se = FALSE, color = "black") +
+  theme_minimal() +
+  labs(
+    x = "Capsid Length (bp)",
+    y = "DTR Length (bp)",
+    color = "T-number",
+    title = "DTR Length vs. Capsid Type"
+  )
+```
+
+<!-- --- -->
+
+<!-- ## **📌 Summary of Key Insights from These Plots** -->
+<!-- 1. **Viral vs. Non-Viral Capsids** → Shows distribution of viral vs. non-viral sequences in various biomes. -->
+<!-- 2. **Capsid Size vs. Viral Genes** → Tests if larger capsids carry more viral genes. -->
+<!-- 3. **T-number Distribution by Biome** → Identifies which biomes harbor large/small capsids. -->
+<!-- 4. **Biome-Specific Contig Length** → Compares capsid size across environments. -->
+<!-- 5. **T-number vs. Genome Composition** → Examines genome content diversity across capsid structures. -->
+<!-- 6. **Evolutionary Origins (Sunburst Chart)** → Shows hierarchical transitions from biomes to capsid types. -->
+<!-- 7. **DTR Length vs. Capsid Type** → Investigates how DTR influences capsid diversity. -->
+
+<!-- --- -->
+
+<!-- ### **🚀 Next Steps** -->
+<!-- - Run the provided **R codes** and check the plots. -->
+<!-- - If anything needs refinement, let me know! -->
+<!-- - If you need **interactive** versions of these plots, we can use `plotly`. 🚀 -->

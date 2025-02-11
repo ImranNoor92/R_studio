@@ -1,0 +1,48 @@
+sl,accession,sequence,domain_name,representative_pdb,origin
+1,PF00688,reviewed,TGF_beta_propeptide,4YCG,non_viral_origin
+2,PF00738,reviewed,Polyhedrin,2WUX,viral_origin
+3,PF00760,reviewed,Cucumovirus_coat_protein,1FS15,viral_origin
+4,PF00983,reviewed,Tymovirus_coat_protein,1AUY,viral_origin
+5,PF02226,reviewed,Viral_coat_protein_P2_N_terminal_domain,7TAF,viral_origin
+6,PF02336,reviewed,Capsid_protein_VP4,8T9X,viral_origin
+7,PF02956,reviewed,TT_viral_orf_1,8CYG,viral_origin
+8,PF03014,reviewed,"	Structural_protein_2_nucleoplasmin_like_domain",2ZTN,viral_origin
+9,PF03367,reviewed,"	ZPR1_zinc_finger_domain",2QKD,non_viral_origin
+10,PF03391,reviewed,Nepovirus_coat_protein__central_domain,1A6C,viral_origin
+11,PF03566,reviewed,Peptidase_family_A21,1OHF,non_viral_origin
+12,PF03633,reviewed,Glycosyl_hydrolase_family_65__C_terminal_domain,1H54,non_viral_origin
+13,PF03678,reviewed,Hexon__adenovirus_major_coat_protein__C_terminal_domain,1P2Z,viral_origin
+14,PF03689,reviewed,Nepovirus_coat_protein__N_terminal_domain,1A6C,viral_origin
+15,PF05118,reviewed,Aspartyl/Asparaginyl_beta_hydroxylase,4P7X,non_viral_origin
+16,PF05373,reviewed,L_proline_3_hydroxylase__C_terminal,1E5R,non_viral_origin
+17,PF05737,reviewed,Collagen_binding_domain,2OKM,non_viral_origin
+18,PF05899,reviewed,EutQ_like_cupin_domain,1O5U,non_viral_origin
+19,PF07953,reviewed,Clostridium_neurotoxin__N_terminal_receptor_binding,1A8D,non_viral_origin
+20,PF09018,reviewed,P3_major_capsid_protein,1HX6,viral_origin
+21,PF09092,reviewed,"	Lyase__N_terminal",1HN0,non_viral_origin
+22,PF09101,reviewed,"	Exotoxin_A_binding",1IKP,non_viral_origin
+24,PF09113,reviewed,Peptide_N_glycosidase_F__C_terminal,1PGS,non_viral_origin
+26,PF09206,reviewed,Alpha_L_arabinofuranosidase_B__catalytic,6SXR,non_viral_origin
+27,PF11492,reviewed,Cricket_paralysis_virus__VP4,1B35,viral_origin
+28,PF12264,reviewed,"	Waikavirus_capsid_protein_1",,viral_origin
+30,PF14099,reviewed,"	Polysaccharide_lyase",2ZZJ,non_viral_origin
+32,PF15414,unreviewed,Protein_of_unknown_function_(DUF4621),4H3W,Unknown
+33,PF16903,reviewed,Major_capsid_protein_N_terminus,7YJL,viral_origin
+34,PF17974,reviewed,Galactose_binding_domain_like,2zxq,non_viral_origin
+35,PF17991,reviewed,Thioredoxin_like_C_terminal_domain,2hyx,non_viral_origin
+36,PF17996,reviewed,Carbohydrate_esterase_2_N_terminal,2w9x,non_viral_origin
+40,PF18628,reviewed,Viral_coat_protein_P2_N_terminal_domain,2vvf,viral_origin
+42,PF20510,reviewed,Homogentisate_1_2_dioxygenase_N_terminal,3ZDS,non_viral_origin
+43,PF20511,reviewed,Phosphomannose_isomerase_type_I__catalytic_domain,1PMI,non_viral_origin
+46,PF21471,reviewed,Reelin_subrepeat_B,2.00E+26,non_viral_origin
+23,PF09112,unreviewed,"	Peptide_N_glycosidase_F__N_terminal",3KS7,non_viral_origin
+25,PF09144,unreviewed,"	Yersinia_pseudo_tuberculosis_mitogen",1PM4,non_viral_origin
+29,PF13157,unreviewed,"	Endospore_appendages",7A02,non_viral_origin
+31,PF14717,unreviewed,Domain_of_unknown_function_(DUF4465),9FCT,Unknown
+37,PF18099,unreviewed,"	Carbohydrate_binding_module_(family_35)",2W47,non_viral_origin
+38,PF18425,unreviewed,"	Csp_protease_B_prodomain",4I0W,non_viral_origin
+39,PF18573,unreviewed,"	BclA_C_terminal_domain",2Z5W,non_viral_origin
+41,PF18666,unreviewed,Carbohydrate_binding_module_64,5E9P,non_viral_origin
+44,PF21340,unreviewed,Cip1_like__core_domain,3ZYP,non_viral_origin
+45,PF21454,unreviewed,Major_structural_protein_1__jelly_roll_domain,5e7f,viral_origin
+47,PF21510,unreviewed,PirA_like,3X0T,non_viral_origin

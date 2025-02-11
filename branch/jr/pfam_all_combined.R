@@ -76,3 +76,4 @@ hmmer <- hmmer %>%
   mutate(across(c(biome1, biome2, biome3), ~ gsub("-", "_", .)))
 hmmer <- hmmer %>%
   distinct(accession, .keep_all = TRUE)
+hmmer_jr <- read.csv("hmmer_jre.csv")
