@@ -1,0 +1,713 @@
+accession,target_name,query_name_clean,description,data_source,contig_length,dtr_length,genes_viral,genes_plasmid,genes_microbial,genes_unknown,biome1,biome2,biome3,gca_name
+PF09113,N-glycanase_C,DTR_432913,"Peptide-N-glycosidase F, C terminal",CIBIO,17173,21,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_432913,"Peptide-N-glycosidase F, C terminal",CIBIO,17173,21,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF14717,DUF4465,DTR_065957,Domain of unknown function (DUF4465),IMG/M,11447,123,3,0,0,21,Aquatic,Marine,Oceanic,NULL
+PF02226,Pico_P1A,DTR_133317,Picornavirus coat protein (VP4),IMG/M,10337,123,2,0,0,13,Terrestrial,Soil,NA,NULL
+PF03367,zf-ZPR1,DTR_886435,ZPR1 zinc-finger domain,HuVirDB,12060,55,1,0,1,17,Host-Associated,Human,Gut,NULL
+PF03367,zf-ZPR1,DTR_886435,ZPR1 zinc-finger domain,HuVirDB,12060,55,1,0,1,17,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_449712,"Peptide-N-glycosidase F, C terminal",CIBIO,17182,30,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_449712,"Peptide-N-glycosidase F, C terminal",CIBIO,17182,30,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18666,CBM64,DTR_547442,Carbohydrate-binding module 64,CIBIO,10376,60,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_547442,Carbohydrate-binding module 64,CIBIO,10376,60,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_547442,Carbohydrate-binding module 64,CIBIO,10376,60,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF20511,PMI_typeI_cat,DTR_236676,"Phosphomannose isomerase type I, catalytic domain",IMG/M,8965,123,1,0,0,14,Aquatic,Freshwater,Lake,NULL
+PF20511,PMI_typeI_cat,DTR_236676,"Phosphomannose isomerase type I, catalytic domain",IMG/M,8965,123,1,0,0,14,Aquatic,Freshwater,Lake,NULL
+PF20511,PMI_typeI_cat,DTR_236676,"Phosphomannose isomerase type I, catalytic domain",IMG/M,8965,123,1,0,0,14,Aquatic,Freshwater,Lake,NULL
+PF05899,Cupin_3,DTR_305761,EutQ-like cupin domain,IMG/M,15123,127,6,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_305761,EutQ-like cupin domain,IMG/M,15123,127,6,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_305761,EutQ-like cupin domain,IMG/M,15123,127,6,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF18628,P2_N,DTR_266119,Viral coat protein P2 N-terminal domain,IMG/M,10256,127,3,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_266119,Viral coat protein P2 N-terminal domain,IMG/M,10256,127,3,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF09113,N-glycanase_C,DTR_103718,"Peptide-N-glycosidase F, C terminal",IMG/M,17254,99,3,0,0,14,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_103718,"Peptide-N-glycosidase F, C terminal",IMG/M,17254,99,3,0,0,14,Host-Associated,Human,Gut,GCA_003502105.1
+PF02226,Pico_P1A,DTR_851643,Picornavirus coat protein (VP4),HGM,8605,141,1,0,0,11,Host-Associated,Human,Gut,NULL
+PF02226,Pico_P1A,DTR_851643,Picornavirus coat protein (VP4),HGM,8605,141,1,0,0,11,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_851373,"Peptide-N-glycosidase F, C terminal",HGM,17214,62,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_851373,"Peptide-N-glycosidase F, C terminal",HGM,17214,62,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_862930,"Peptide-N-glycosidase F, C terminal",HGM,17196,44,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_862930,"Peptide-N-glycosidase F, C terminal",HGM,17196,44,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF03678,Adeno_hexon_C,DTR_009104,"Hexon, adenovirus major coat protein, C-terminal domain",IMG/M,14358,101,4,0,0,13,Aquatic,Non-marine saline,Hypersaline,NULL
+PF17991,Thioredoxin_10,DTR_663535,Thioredoxin like C-terminal domain,MGnify,16628,55,7,0,0,19,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_663535,Thioredoxin like C-terminal domain,MGnify,16628,55,7,0,0,19,Host-Associated,Human,Gut,GCA_003691915.1
+PF09113,N-glycanase_C,DTR_772781,"Peptide-N-glycosidase F, C terminal",HGM,17227,75,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_772781,"Peptide-N-glycosidase F, C terminal",HGM,17227,75,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF17991,Thioredoxin_10,DTR_441307,Thioredoxin like C-terminal domain,CIBIO,16478,55,7,0,0,17,Host-Associated,Human,Gut,NULL
+PF17991,Thioredoxin_10,DTR_441307,Thioredoxin like C-terminal domain,CIBIO,16478,55,7,0,0,17,Host-Associated,Human,Gut,NULL
+PF17974,GalBD_like,DTR_179721,Galactose-binding domain-like,IMG/M,14231,77,3,0,1,17,Host-Associated,Mammals,Digestive system,NULL
+PF17974,GalBD_like,DTR_179721,Galactose-binding domain-like,IMG/M,14231,77,3,0,1,17,Host-Associated,Mammals,Digestive system,NULL
+PF09113,N-glycanase_C,DTR_797207,"Peptide-N-glycosidase F, C terminal",HGM,17255,94,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_797207,"Peptide-N-glycosidase F, C terminal",HGM,17255,94,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18666,CBM64,DTR_140865,Carbohydrate-binding module 64,IMG/M,12444,119,4,0,0,26,Aquatic,Marine,Coastal,NULL
+PF09206,ArabFuran-catal,DTR_171909,"Alpha-L-arabinofuranosidase B, catalytic",IMG/M,13017,123,2,0,0,23,Aquatic,Freshwater,Lake,NULL
+PF09206,ArabFuran-catal,DTR_171909,"Alpha-L-arabinofuranosidase B, catalytic",IMG/M,13017,123,2,0,0,23,Aquatic,Freshwater,Lake,NULL
+PF09113,N-glycanase_C,DTR_558690,"Peptide-N-glycosidase F, C terminal",MGnify,17189,37,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_558690,"Peptide-N-glycosidase F, C terminal",MGnify,17189,37,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF15414,DUF4621,DTR_622422,Protein of unknown function (DUF4621),MGnify,15728,55,9,0,0,16,Host-Associated,Human,Gut,NULL
+PF17991,Thioredoxin_10,DTR_478164,Thioredoxin like C-terminal domain,CIBIO,16548,55,6,0,0,19,Host-Associated,Human,Gut,NULL
+PF17991,Thioredoxin_10,DTR_478164,Thioredoxin like C-terminal domain,CIBIO,16548,55,6,0,0,19,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_834058,"Peptide-N-glycosidase F, C terminal",HGM,17224,45,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_834058,"Peptide-N-glycosidase F, C terminal",HGM,17224,45,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF13157,Enas,DTR_270354,Endospore appendages,IMG/M,15430,72,1,0,0,17,Aquatic,Marine,Oceanic,NULL
+PF00688,TGFb_propeptide,DTR_249382,TGF-beta propeptide,IMG/M,15316,42,1,0,0,22,Engineered,Bioreactor,Anaerobic,NULL
+PF18666,CBM64,DTR_095461,Carbohydrate-binding module 64,IMG/M,9994,99,3,0,0,6,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_095461,Carbohydrate-binding module 64,IMG/M,9994,99,3,0,0,6,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_095461,Carbohydrate-binding module 64,IMG/M,9994,99,3,0,0,6,Host-Associated,Human,Gut,NULL
+PF18628,P2_N,DTR_265858,Viral coat protein P2 N-terminal domain,IMG/M,10276,127,4,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_265858,Viral coat protein P2 N-terminal domain,IMG/M,10276,127,4,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF09113,N-glycanase_C,DTR_749646,"Peptide-N-glycosidase F, C terminal",HGM,17223,73,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_749646,"Peptide-N-glycosidase F, C terminal",HGM,17223,73,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18666,CBM64,DTR_826735,Carbohydrate-binding module 64,HGM,9866,99,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_826735,Carbohydrate-binding module 64,HGM,9866,99,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_826735,Carbohydrate-binding module 64,HGM,9866,99,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_432888,"Peptide-N-glycosidase F, C terminal",CIBIO,17177,25,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_432888,"Peptide-N-glycosidase F, C terminal",CIBIO,17177,25,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_791673,"Peptide-N-glycosidase F, C terminal",HGM,17228,76,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_791673,"Peptide-N-glycosidase F, C terminal",HGM,17228,76,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF03689,Nepo_coat_N,DTR_233894,"Nepovirus coat protein, N-terminal domain",IMG/M,17614,99,6,0,0,22,Aquatic,Freshwater,Lentic,NULL
+PF03689,Nepo_coat_N,DTR_233894,"Nepovirus coat protein, N-terminal domain",IMG/M,17614,99,6,0,0,22,Aquatic,Freshwater,Lentic,NULL
+PF03689,Nepo_coat_N,DTR_233894,"Nepovirus coat protein, N-terminal domain",IMG/M,17614,99,6,0,0,22,Aquatic,Freshwater,Lentic,NULL
+PF03014,SP2,DTR_283963,Structural protein 2 nucleoplasmin-like domain,IMG/M,11254,127,0,0,1,14,Aquatic,Marine,Coastal,NULL
+PF18573,BclA_C,DTR_890593,BclA C-terminal domain,GOV2,19682,25,2,0,0,26,Aquatic,Marine,NA,NULL
+PF03633,Glyco_hydro_65C,DTR_748778,"Glycosyl hydrolase family 65, C-terminal domain",HGM,4619,26,2,0,0,10,Host-Associated,Human,Gut,GCA_002756075.1
+PF09113,N-glycanase_C,DTR_549652,"Peptide-N-glycosidase F, C terminal",CIBIO,17208,55,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_549652,"Peptide-N-glycosidase F, C terminal",CIBIO,17208,55,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18573,BclA_C,DTR_349085,BclA C-terminal domain,IMG/M,16991,120,5,0,0,16,Terrestrial,Soil,NA,NULL
+PF18573,BclA_C,DTR_349085,BclA C-terminal domain,IMG/M,16991,120,5,0,0,16,Terrestrial,Soil,NA,NULL
+PF09113,N-glycanase_C,DTR_505834,"Peptide-N-glycosidase F, C terminal",CIBIO,17175,23,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_505834,"Peptide-N-glycosidase F, C terminal",CIBIO,17175,23,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_856558,"Peptide-N-glycosidase F, C terminal",HGM,17204,43,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_856558,"Peptide-N-glycosidase F, C terminal",HGM,17204,43,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF05899,Cupin_3,DTR_311102,EutQ-like cupin domain,IMG/M,15123,127,6,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_311102,EutQ-like cupin domain,IMG/M,15123,127,6,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_311102,EutQ-like cupin domain,IMG/M,15123,127,6,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF17991,Thioredoxin_10,DTR_405054,Thioredoxin like C-terminal domain,CIBIO,16465,55,7,0,0,18,Host-Associated,Human,Gut,NULL
+PF17991,Thioredoxin_10,DTR_405054,Thioredoxin like C-terminal domain,CIBIO,16465,55,7,0,0,18,Host-Associated,Human,Gut,NULL
+PF05899,Cupin_3,DTR_309421,EutQ-like cupin domain,IMG/M,15070,74,5,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_309421,EutQ-like cupin domain,IMG/M,15070,74,5,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_309421,EutQ-like cupin domain,IMG/M,15070,74,5,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF18425,CspB_prodomain,DTR_330329,Csp protease B prodomain,IMG/M,19735,120,8,0,0,16,Aquatic,Freshwater,Lake,NULL
+PF18425,CspB_prodomain,DTR_330329,Csp protease B prodomain,IMG/M,19735,120,8,0,0,16,Aquatic,Freshwater,Lake,NULL
+PF09113,N-glycanase_C,DTR_826040,"Peptide-N-glycosidase F, C terminal",HGM,17245,93,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_826040,"Peptide-N-glycosidase F, C terminal",HGM,17245,93,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF07953,Toxin_R_bind_N,DTR_183486,"Clostridium neurotoxin, N-terminal receptor binding",IMG/M,11173,123,2,0,0,16,Engineered,Solid waste,Landfill,NULL
+PF07953,Toxin_R_bind_N,DTR_183486,"Clostridium neurotoxin, N-terminal receptor binding",IMG/M,11173,123,2,0,0,16,Engineered,Solid waste,Landfill,NULL
+PF18666,CBM64,DTR_520520,Carbohydrate-binding module 64,CIBIO,9671,119,2,0,0,7,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_520520,Carbohydrate-binding module 64,CIBIO,9671,119,2,0,0,7,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_520520,Carbohydrate-binding module 64,CIBIO,9671,119,2,0,0,7,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_761161,"Peptide-N-glycosidase F, C terminal",HGM,17207,55,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_761161,"Peptide-N-glycosidase F, C terminal",HGM,17207,55,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_797722,"Peptide-N-glycosidase F, C terminal",HGM,17207,55,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_797722,"Peptide-N-glycosidase F, C terminal",HGM,17207,55,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF02956,TT_ORF1,DTR_302905,TT viral orf 1,IMG/M,13212,81,4,0,0,20,Terrestrial,Soil,NA,NULL
+PF09113,N-glycanase_C,DTR_842970,"Peptide-N-glycosidase F, C terminal",HGM,17288,136,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_842970,"Peptide-N-glycosidase F, C terminal",HGM,17288,136,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF05737,Collagen_bind,DTR_883245,Collagen binding domain,HGM,12341,99,4,1,0,18,Host-Associated,Human,Gut,NULL
+PF05373,Pro_3_hydrox_C,DTR_848892,"L-proline 3-hydroxylase, C-terminal",HGM,10640,119,2,0,0,12,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_837267,"Peptide-N-glycosidase F, C terminal",HGM,17268,89,3,0,0,14,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_837267,"Peptide-N-glycosidase F, C terminal",HGM,17268,89,3,0,0,14,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_834473,"Peptide-N-glycosidase F, C terminal",HGM,17245,93,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_834473,"Peptide-N-glycosidase F, C terminal",HGM,17245,93,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18573,BclA_C,DTR_286245,BclA C-terminal domain,IMG/M,14861,127,7,0,0,7,Engineered,Wastewater,Anaerobic digestor,NULL
+PF18666,CBM64,DTR_374699,Carbohydrate-binding module 64,CIBIO,10318,119,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_374699,Carbohydrate-binding module 64,CIBIO,10318,119,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_374699,Carbohydrate-binding module 64,CIBIO,10318,119,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF03367,zf-ZPR1,DTR_077758,ZPR1 zinc-finger domain,IMG/M,9157,123,0,0,0,13,Aquatic,Marine,Coastal,NULL
+PF09113,N-glycanase_C,DTR_749515,"Peptide-N-glycosidase F, C terminal",HGM,17175,23,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_749515,"Peptide-N-glycosidase F, C terminal",HGM,17175,23,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF16903,Capsid_N,DTR_288704,Major capsid protein N-terminus,IMG/M,16213,127,3,0,0,18,Aquatic,Freshwater,Lentic,NULL
+PF17991,Thioredoxin_10,DTR_602746,Thioredoxin like C-terminal domain,MGnify,16478,55,7,0,0,17,Host-Associated,Human,Gut,NULL
+PF17991,Thioredoxin_10,DTR_602746,Thioredoxin like C-terminal domain,MGnify,16478,55,7,0,0,17,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_559813,"Peptide-N-glycosidase F, C terminal",MGnify,17202,53,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_559813,"Peptide-N-glycosidase F, C terminal",MGnify,17202,53,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF02956,TT_ORF1,DTR_051276,TT viral orf 1,IMG/M,5203,80,1,0,0,9,Aquatic,Marine,Oceanic,NULL
+PF18628,P2_N,DTR_037686,Viral coat protein P2 N-terminal domain,IMG/M,10209,60,4,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_037686,Viral coat protein P2 N-terminal domain,IMG/M,10209,60,4,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF07953,Toxin_R_bind_N,DTR_183004,"Clostridium neurotoxin, N-terminal receptor binding",IMG/M,12156,118,2,0,0,26,Engineered,Solid waste,Landfill,NULL
+PF09206,ArabFuran-catal,DTR_285287,"Alpha-L-arabinofuranosidase B, catalytic",IMG/M,19383,99,10,1,1,17,Aquatic,Marine,Intertidal zone,NULL
+PF09113,N-glycanase_C,DTR_516069,"Peptide-N-glycosidase F, C terminal",CIBIO,17194,51,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_516069,"Peptide-N-glycosidase F, C terminal",CIBIO,17194,51,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF16903,Capsid_N,DTR_284039,Major capsid protein N-terminus,IMG/M,16213,127,3,0,0,20,Aquatic,Freshwater,Lentic,NULL
+PF09113,N-glycanase_C,DTR_778119,"Peptide-N-glycosidase F, C terminal",HGM,17202,50,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_778119,"Peptide-N-glycosidase F, C terminal",HGM,17202,50,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18573,BclA_C,DTR_892302,BclA C-terminal domain,GOV2,11575,55,4,0,1,16,Aquatic,Marine,NA,NULL
+PF09113,N-glycanase_C,DTR_846491,"Peptide-N-glycosidase F, C terminal",HGM,17252,104,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_846491,"Peptide-N-glycosidase F, C terminal",HGM,17252,104,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09101,Exotox-A_bind,DTR_611857,Exotoxin A binding,MGnify,18165,55,5,0,0,23,Host-Associated,Human,Gut,NULL
+PF02336,Denso_VP4,DTR_636293,Capsid protein VP4,MGnify,17396,35,3,0,0,19,Host-Associated,Human,Gut,GCA_001308795.2
+PF09113,N-glycanase_C,DTR_533597,"Peptide-N-glycosidase F, C terminal",CIBIO,17262,104,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_533597,"Peptide-N-glycosidase F, C terminal",CIBIO,17262,104,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_443273,"Peptide-N-glycosidase F, C terminal",CIBIO,17191,30,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_443273,"Peptide-N-glycosidase F, C terminal",CIBIO,17191,30,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18573,BclA_C,DTR_027076,BclA C-terminal domain,IMG/M,11949,25,2,0,0,14,Engineered,Wastewater,Industrial wastewater,NULL
+PF14099,Polysacc_lyase,DTR_317920,Polysaccharide lyase,IMG/M,15056,127,6,0,0,13,Aquatic,Freshwater,Lentic,NULL
+PF14099,Polysacc_lyase,DTR_317920,Polysaccharide lyase,IMG/M,15056,127,6,0,0,13,Aquatic,Freshwater,Lentic,NULL
+PF18628,P2_N,DTR_265559,Viral coat protein P2 N-terminal domain,IMG/M,10276,127,4,0,0,19,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_265559,Viral coat protein P2 N-terminal domain,IMG/M,10276,127,4,0,0,19,Aquatic,Freshwater,Sediment,NULL
+PF13157,Enas,DTR_316927,Endospore appendages,IMG/M,4351,127,1,0,0,9,Aquatic,Freshwater,Lentic,NULL
+PF13157,Enas,DTR_316927,Endospore appendages,IMG/M,4351,127,1,0,0,9,Aquatic,Freshwater,Lentic,NULL
+PF05737,Collagen_bind,DTR_474063,Collagen binding domain,CIBIO,12297,55,4,1,0,17,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_546157,"Peptide-N-glycosidase F, C terminal",CIBIO,17217,71,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_546157,"Peptide-N-glycosidase F, C terminal",CIBIO,17217,71,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_765786,"Peptide-N-glycosidase F, C terminal",HGM,17250,89,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_765786,"Peptide-N-glycosidase F, C terminal",HGM,17250,89,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_856245,"Peptide-N-glycosidase F, C terminal",HGM,17221,69,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_856245,"Peptide-N-glycosidase F, C terminal",HGM,17221,69,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF13157,Enas,DTR_313719,Endospore appendages,IMG/M,4351,127,1,0,0,8,Aquatic,Freshwater,Lentic,NULL
+PF13157,Enas,DTR_313719,Endospore appendages,IMG/M,4351,127,1,0,0,8,Aquatic,Freshwater,Lentic,NULL
+PF18666,CBM64,DTR_530635,Carbohydrate-binding module 64,CIBIO,9805,36,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_530635,Carbohydrate-binding module 64,CIBIO,9805,36,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_530635,Carbohydrate-binding module 64,CIBIO,9805,36,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF18573,BclA_C,DTR_718226,BclA C-terminal domain,MGnify,18541,55,4,0,0,16,NA,NA,NA,NULL
+PF09113,N-glycanase_C,DTR_468435,"Peptide-N-glycosidase F, C terminal",CIBIO,17206,54,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_468435,"Peptide-N-glycosidase F, C terminal",CIBIO,17206,54,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18573,BclA_C,DTR_065948,BclA C-terminal domain,IMG/M,12242,123,3,1,0,20,Aquatic,Marine,Oceanic,NULL
+PF18573,BclA_C,DTR_065948,BclA C-terminal domain,IMG/M,12242,123,3,1,0,20,Aquatic,Marine,Oceanic,NULL
+PF18666,CBM64,DTR_743367,Carbohydrate-binding module 64,HGM,9799,31,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_743367,Carbohydrate-binding module 64,HGM,9799,31,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_743367,Carbohydrate-binding module 64,HGM,9799,31,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_786946,"Peptide-N-glycosidase F, C terminal",HGM,17241,89,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_786946,"Peptide-N-glycosidase F, C terminal",HGM,17241,89,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_544624,"Peptide-N-glycosidase F, C terminal",CIBIO,17172,20,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_544624,"Peptide-N-glycosidase F, C terminal",CIBIO,17172,20,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_753861,"Peptide-N-glycosidase F, C terminal",HGM,17185,33,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_753861,"Peptide-N-glycosidase F, C terminal",HGM,17185,33,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF13157,Enas,DTR_284171,Endospore appendages,IMG/M,9122,96,1,0,0,11,Aquatic,Marine,Coastal,NULL
+PF18628,P2_N,DTR_037154,Viral coat protein P2 N-terminal domain,IMG/M,10188,59,3,0,0,19,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_037154,Viral coat protein P2 N-terminal domain,IMG/M,10188,59,3,0,0,19,Aquatic,Freshwater,Sediment,NULL
+PF15414,DUF4621,DTR_405812,Protein of unknown function (DUF4621),CIBIO,15937,55,9,0,0,17,Host-Associated,Human,Oral,NULL
+PF18666,CBM64,DTR_530068,Carbohydrate-binding module 64,CIBIO,10376,60,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_530068,Carbohydrate-binding module 64,CIBIO,10376,60,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_530068,Carbohydrate-binding module 64,CIBIO,10376,60,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_888204,"Peptide-N-glycosidase F, C terminal",HuVirDB,17279,127,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_888204,"Peptide-N-glycosidase F, C terminal",HuVirDB,17279,127,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18573,BclA_C,DTR_351934,BclA C-terminal domain,IMG/M,15355,127,4,0,0,19,Terrestrial,Soil,NA,NULL
+PF03014,SP2,DTR_087117,Structural protein 2 nucleoplasmin-like domain,IMG/M,11250,123,0,0,1,14,Aquatic,Marine,Coastal,NULL
+PF09113,N-glycanase_C,DTR_595517,"Peptide-N-glycosidase F, C terminal",MGnify,17202,50,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_595517,"Peptide-N-glycosidase F, C terminal",MGnify,17202,50,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_860862,"Peptide-N-glycosidase F, C terminal",HGM,17174,28,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_860862,"Peptide-N-glycosidase F, C terminal",HGM,17174,28,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18573,BclA_C,DTR_892297,BclA C-terminal domain,GOV2,12593,55,3,0,0,21,Aquatic,Marine,NA,NULL
+PF18573,BclA_C,DTR_892297,BclA C-terminal domain,GOV2,12593,55,3,0,0,21,Aquatic,Marine,NA,NULL
+PF18573,BclA_C,DTR_892297,BclA C-terminal domain,GOV2,12593,55,3,0,0,21,Aquatic,Marine,NA,NULL
+PF18573,BclA_C,DTR_892297,BclA C-terminal domain,GOV2,12593,55,3,0,0,21,Aquatic,Marine,NA,NULL
+PF09113,N-glycanase_C,DTR_751348,"Peptide-N-glycosidase F, C terminal",HGM,17183,22,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_751348,"Peptide-N-glycosidase F, C terminal",HGM,17183,22,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_550119,"Peptide-N-glycosidase F, C terminal",CIBIO,17210,58,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_550119,"Peptide-N-glycosidase F, C terminal",CIBIO,17210,58,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF13157,Enas,DTR_006424,Endospore appendages,IMG/M,9128,102,1,0,0,12,Aquatic,Marine,Neritic zone,NULL
+PF09113,N-glycanase_C,DTR_863359,"Peptide-N-glycosidase F, C terminal",HGM,17211,59,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_863359,"Peptide-N-glycosidase F, C terminal",HGM,17211,59,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_487915,"Peptide-N-glycosidase F, C terminal",CIBIO,17287,141,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_487915,"Peptide-N-glycosidase F, C terminal",CIBIO,17287,141,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_777926,"Peptide-N-glycosidase F, C terminal",HGM,17189,37,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_777926,"Peptide-N-glycosidase F, C terminal",HGM,17189,37,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18573,BclA_C,DTR_065954,BclA C-terminal domain,IMG/M,11841,123,3,0,0,17,Aquatic,Marine,Oceanic,NULL
+PF18099,CBM_35_2,DTR_259669,Carbohydrate binding module (family 35),IMG/M,7900,127,1,0,0,10,Aquatic,Non-marine saline,Saline,NULL
+PF18099,CBM_35_2,DTR_259669,Carbohydrate binding module (family 35),IMG/M,7900,127,1,0,0,10,Aquatic,Non-marine saline,Saline,NULL
+PF18099,CBM_35_2,DTR_259669,Carbohydrate binding module (family 35),IMG/M,7900,127,1,0,0,10,Aquatic,Non-marine saline,Saline,NULL
+PF09113,N-glycanase_C,DTR_774713,"Peptide-N-glycosidase F, C terminal",HGM,17201,49,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_774713,"Peptide-N-glycosidase F, C terminal",HGM,17201,49,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF20510,HgmA_N,DTR_414007,"Homogentisate 1,2-dioxygenase N-terminal",CIBIO,8492,30,3,1,0,10,Host-Associated,Human,Gut,NULL
+PF09206,ArabFuran-catal,DTR_172400,"Alpha-L-arabinofuranosidase B, catalytic",IMG/M,12974,80,2,0,0,22,Aquatic,Freshwater,Lake,NULL
+PF09206,ArabFuran-catal,DTR_172400,"Alpha-L-arabinofuranosidase B, catalytic",IMG/M,12974,80,2,0,0,22,Aquatic,Freshwater,Lake,NULL
+PF03678,Adeno_hexon_C,DTR_008904,"Hexon, adenovirus major coat protein, C-terminal domain",IMG/M,14358,101,4,0,0,13,Aquatic,Non-marine saline,Hypersaline,NULL
+PF09113,N-glycanase_C,DTR_772378,"Peptide-N-glycosidase F, C terminal",HGM,17220,68,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_772378,"Peptide-N-glycosidase F, C terminal",HGM,17220,68,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF20510,HgmA_N,DTR_828561,"Homogentisate 1,2-dioxygenase N-terminal",HGM,8423,30,3,1,0,10,Host-Associated,Human,Gut,NULL
+PF05899,Cupin_3,DTR_308737,EutQ-like cupin domain,IMG/M,15123,127,5,0,0,15,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_308737,EutQ-like cupin domain,IMG/M,15123,127,5,0,0,15,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_308737,EutQ-like cupin domain,IMG/M,15123,127,5,0,0,15,Aquatic,Freshwater,River,GCA_002609965.1
+PF20510,HgmA_N,DTR_409266,"Homogentisate 1,2-dioxygenase N-terminal",CIBIO,8970,24,3,1,0,11,Host-Associated,Human,Gut,NULL
+PF18573,BclA_C,DTR_264533,BclA C-terminal domain,IMG/M,12636,127,3,0,0,20,Aquatic,Marine,Inlet,NULL
+PF18573,BclA_C,DTR_264533,BclA C-terminal domain,IMG/M,12636,127,3,0,0,20,Aquatic,Marine,Inlet,NULL
+PF09113,N-glycanase_C,DTR_455828,"Peptide-N-glycosidase F, C terminal",CIBIO,17207,55,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_455828,"Peptide-N-glycosidase F, C terminal",CIBIO,17207,55,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_814050,"Peptide-N-glycosidase F, C terminal",HGM,17237,85,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_814050,"Peptide-N-glycosidase F, C terminal",HGM,17237,85,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_854627,"Peptide-N-glycosidase F, C terminal",HGM,17221,69,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_854627,"Peptide-N-glycosidase F, C terminal",HGM,17221,69,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18099,CBM_35_2,DTR_259628,Carbohydrate binding module (family 35),IMG/M,7900,127,1,0,0,10,Aquatic,Non-marine saline,Saline,NULL
+PF18099,CBM_35_2,DTR_259628,Carbohydrate binding module (family 35),IMG/M,7900,127,1,0,0,10,Aquatic,Non-marine saline,Saline,NULL
+PF18099,CBM_35_2,DTR_259628,Carbohydrate binding module (family 35),IMG/M,7900,127,1,0,0,10,Aquatic,Non-marine saline,Saline,NULL
+PF17991,Thioredoxin_10,DTR_508349,Thioredoxin like C-terminal domain,CIBIO,16671,55,7,0,0,18,Host-Associated,Human,Gut,NULL
+PF17991,Thioredoxin_10,DTR_508349,Thioredoxin like C-terminal domain,CIBIO,16671,55,7,0,0,18,Host-Associated,Human,Gut,NULL
+PF20510,HgmA_N,DTR_493079,"Homogentisate 1,2-dioxygenase N-terminal",CIBIO,7895,55,2,0,0,12,Host-Associated,Human,Gut,NULL
+PF20510,HgmA_N,DTR_493079,"Homogentisate 1,2-dioxygenase N-terminal",CIBIO,7895,55,2,0,0,12,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_390389,"Peptide-N-glycosidase F, C terminal",CIBIO,17258,55,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_390389,"Peptide-N-glycosidase F, C terminal",CIBIO,17258,55,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_818975,"Peptide-N-glycosidase F, C terminal",HGM,17255,91,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_818975,"Peptide-N-glycosidase F, C terminal",HGM,17255,91,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_604604,"Peptide-N-glycosidase F, C terminal",MGnify,17191,30,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_604604,"Peptide-N-glycosidase F, C terminal",MGnify,17191,30,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF05899,Cupin_3,DTR_304195,EutQ-like cupin domain,IMG/M,15123,127,6,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_304195,EutQ-like cupin domain,IMG/M,15123,127,6,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_304195,EutQ-like cupin domain,IMG/M,15123,127,6,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF09113,N-glycanase_C,DTR_517765,"Peptide-N-glycosidase F, C terminal",CIBIO,17239,89,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_517765,"Peptide-N-glycosidase F, C terminal",CIBIO,17239,89,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18425,CspB_prodomain,DTR_770037,Csp protease B prodomain,HGM,13272,76,6,1,0,22,Host-Associated,Human,Gut,NULL
+PF17991,Thioredoxin_10,DTR_493537,Thioredoxin like C-terminal domain,CIBIO,15762,55,7,0,0,19,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_493537,Thioredoxin like C-terminal domain,CIBIO,15762,55,7,0,0,19,Host-Associated,Human,Gut,GCA_003691915.1
+PF09113,N-glycanase_C,DTR_773857,"Peptide-N-glycosidase F, C terminal",HGM,17237,85,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_773857,"Peptide-N-glycosidase F, C terminal",HGM,17237,85,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF13157,Enas,DTR_326929,Endospore appendages,IMG/M,4323,99,1,0,0,9,Aquatic,Freshwater,Lentic,NULL
+PF13157,Enas,DTR_326929,Endospore appendages,IMG/M,4323,99,1,0,0,9,Aquatic,Freshwater,Lentic,NULL
+PF03391,Nepo_coat,DTR_024606,"Nepovirus coat protein, central domain",IMG/M,13367,92,2,0,0,20,Terrestrial,Soil,Loam,NULL
+PF05899,Cupin_3,DTR_304255,EutQ-like cupin domain,IMG/M,15123,127,5,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_304255,EutQ-like cupin domain,IMG/M,15123,127,5,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_304255,EutQ-like cupin domain,IMG/M,15123,127,5,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF18666,CBM64,DTR_816106,Carbohydrate-binding module 64,HGM,9598,45,2,0,0,7,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_816106,Carbohydrate-binding module 64,HGM,9598,45,2,0,0,7,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_816106,Carbohydrate-binding module 64,HGM,9598,45,2,0,0,7,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_815021,"Peptide-N-glycosidase F, C terminal",HGM,17174,22,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_815021,"Peptide-N-glycosidase F, C terminal",HGM,17174,22,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF05899,Cupin_3,DTR_308681,EutQ-like cupin domain,IMG/M,15123,127,6,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_308681,EutQ-like cupin domain,IMG/M,15123,127,6,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_308681,EutQ-like cupin domain,IMG/M,15123,127,6,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF17991,Thioredoxin_10,DTR_686906,Thioredoxin like C-terminal domain,MGnify,17001,77,7,0,0,21,Host-Associated,Human,Gut,NULL
+PF17991,Thioredoxin_10,DTR_686906,Thioredoxin like C-terminal domain,MGnify,17001,77,7,0,0,21,Host-Associated,Human,Gut,NULL
+PF05899,Cupin_3,DTR_684083,EutQ-like cupin domain,MGnify,16088,77,6,1,0,16,Host-Associated,Human,Gut,GCA_002745635.1
+PF05899,Cupin_3,DTR_684083,EutQ-like cupin domain,MGnify,16088,77,6,1,0,16,Host-Associated,Human,Gut,GCA_002745635.1
+PF09113,N-glycanase_C,DTR_811090,"Peptide-N-glycosidase F, C terminal",HGM,17174,22,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_811090,"Peptide-N-glycosidase F, C terminal",HGM,17174,22,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18628,P2_N,DTR_051147,Viral coat protein P2 N-terminal domain,IMG/M,11384,100,1,0,0,24,Aquatic,Marine,Coastal,NULL
+PF18628,P2_N,DTR_051147,Viral coat protein P2 N-terminal domain,IMG/M,11384,100,1,0,0,24,Aquatic,Marine,Coastal,NULL
+PF14717,DUF4465,DTR_269216,Domain of unknown function (DUF4465),IMG/M,11451,127,3,0,0,21,Aquatic,Marine,Oceanic,NULL
+PF18573,BclA_C,DTR_700858,BclA C-terminal domain,MGnify,18292,53,12,0,0,13,NA,NA,NA,NULL
+PF09113,N-glycanase_C,DTR_853317,"Peptide-N-glycosidase F, C terminal",HGM,17194,46,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_853317,"Peptide-N-glycosidase F, C terminal",HGM,17194,46,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_838573,"Peptide-N-glycosidase F, C terminal",HGM,17231,45,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_838573,"Peptide-N-glycosidase F, C terminal",HGM,17231,45,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF02956,TT_ORF1,DTR_294138,TT viral orf 1,IMG/M,13212,81,4,0,0,20,Host-Associated,Plants,Rhizosphere,NULL
+PF05899,Cupin_3,DTR_304161,EutQ-like cupin domain,IMG/M,15123,127,5,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_304161,EutQ-like cupin domain,IMG/M,15123,127,5,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_304161,EutQ-like cupin domain,IMG/M,15123,127,5,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF17991,Thioredoxin_10,DTR_188442,Thioredoxin like C-terminal domain,IMG/M,16597,272,7,0,0,18,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_188442,Thioredoxin like C-terminal domain,IMG/M,16597,272,7,0,0,18,Host-Associated,Human,Gut,GCA_003691915.1
+PF09092,Lyase_N,DTR_188442,"Lyase, N terminal",IMG/M,16597,272,7,0,0,18,Host-Associated,Human,Gut,GCA_003691915.1
+PF09113,N-glycanase_C,DTR_662889,"Peptide-N-glycosidase F, C terminal",MGnify,17181,29,4,0,0,13,Host-Associated,Mammals,Mouse,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_662889,"Peptide-N-glycosidase F, C terminal",MGnify,17181,29,4,0,0,13,Host-Associated,Mammals,Mouse,GCA_003502105.1
+PF02956,TT_ORF1,DTR_293449,TT viral orf 1,IMG/M,13212,81,4,0,0,20,Host-Associated,Plants,Rhizoplane,NULL
+PF03367,zf-ZPR1,DTR_573911,ZPR1 zinc-finger domain,MGnify,7323,55,1,0,0,11,Host-Associated,Human,Gut,NULL
+PF03014,SP2,DTR_251018,Structural protein 2 nucleoplasmin-like domain,IMG/M,11254,127,0,0,1,14,Aquatic,Marine,Coastal,NULL
+PF09113,N-glycanase_C,DTR_554069,"Peptide-N-glycosidase F, C terminal",CIBIO,17186,32,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_554069,"Peptide-N-glycosidase F, C terminal",CIBIO,17186,32,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF14099,Polysacc_lyase,DTR_141859,Polysaccharide lyase,IMG/M,15351,123,7,0,0,15,Aquatic,Marine,Coastal,NULL
+PF14099,Polysacc_lyase,DTR_141859,Polysaccharide lyase,IMG/M,15351,123,7,0,0,15,Aquatic,Marine,Coastal,NULL
+PF14099,Polysacc_lyase,DTR_141859,Polysaccharide lyase,IMG/M,15351,123,7,0,0,15,Aquatic,Marine,Coastal,NULL
+PF18099,CBM_35_2,DTR_136038,Carbohydrate binding module (family 35),IMG/M,8609,123,1,0,0,17,Terrestrial,Soil,NA,NULL
+PF18628,P2_N,DTR_265524,Viral coat protein P2 N-terminal domain,IMG/M,10224,95,3,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_265524,Viral coat protein P2 N-terminal domain,IMG/M,10224,95,3,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_037208,Viral coat protein P2 N-terminal domain,IMG/M,10725,60,3,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_037208,Viral coat protein P2 N-terminal domain,IMG/M,10725,60,3,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF18666,CBM64,DTR_559959,Carbohydrate-binding module 64,MGnify,9897,127,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_559959,Carbohydrate-binding module 64,MGnify,9897,127,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF17991,Thioredoxin_10,DTR_847870,Thioredoxin like C-terminal domain,HGM,16555,119,7,0,0,18,Host-Associated,Human,Gut,NULL
+PF17991,Thioredoxin_10,DTR_847870,Thioredoxin like C-terminal domain,HGM,16555,119,7,0,0,18,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_550254,"Peptide-N-glycosidase F, C terminal",CIBIO,17224,72,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_550254,"Peptide-N-glycosidase F, C terminal",CIBIO,17224,72,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_791111,"Peptide-N-glycosidase F, C terminal",HGM,17216,64,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_791111,"Peptide-N-glycosidase F, C terminal",HGM,17216,64,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF00688,TGFb_propeptide,DTR_065955,TGF-beta propeptide,IMG/M,11715,123,3,0,0,22,Aquatic,Marine,Oceanic,NULL
+PF02226,Pico_P1A,DTR_482361,Picornavirus coat protein (VP4),CIBIO,8605,141,1,0,0,11,Host-Associated,Human,Gut,NULL
+PF02226,Pico_P1A,DTR_482361,Picornavirus coat protein (VP4),CIBIO,8605,141,1,0,0,11,Host-Associated,Human,Gut,NULL
+PF05118,Asp_Arg_Hydrox,DTR_329201,Aspartyl/Asparaginyl beta-hydroxylase,IMG/M,11860,99,3,0,0,18,Aquatic,Marine,Oceanic,NULL
+PF09113,N-glycanase_C,DTR_581654,"Peptide-N-glycosidase F, C terminal",MGnify,17206,54,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_581654,"Peptide-N-glycosidase F, C terminal",MGnify,17206,54,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF21471,Reelin_subrepeat-B,DTR_167159,Reelin subrepeat B,IMG/M,16918,123,1,0,0,33,Terrestrial,Soil,NA,NULL
+PF18666,CBM64,DTR_512611,Carbohydrate-binding module 64,CIBIO,9622,96,2,0,0,7,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_512611,Carbohydrate-binding module 64,CIBIO,9622,96,2,0,0,7,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_512611,Carbohydrate-binding module 64,CIBIO,9622,96,2,0,0,7,Host-Associated,Human,Gut,NULL
+PF18628,P2_N,DTR_051020,Viral coat protein P2 N-terminal domain,IMG/M,11404,120,1,0,0,23,Aquatic,Marine,Coastal,NULL
+PF18628,P2_N,DTR_051020,Viral coat protein P2 N-terminal domain,IMG/M,11404,120,1,0,0,23,Aquatic,Marine,Coastal,NULL
+PF09113,N-glycanase_C,DTR_617333,"Peptide-N-glycosidase F, C terminal",MGnify,17173,21,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_617333,"Peptide-N-glycosidase F, C terminal",MGnify,17173,21,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF17991,Thioredoxin_10,DTR_415565,Thioredoxin like C-terminal domain,CIBIO,16364,55,8,0,0,16,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_415565,Thioredoxin like C-terminal domain,CIBIO,16364,55,8,0,0,16,Host-Associated,Human,Gut,GCA_003691915.1
+PF09092,Lyase_N,DTR_415565,"Lyase, N terminal",CIBIO,16364,55,8,0,0,16,Host-Associated,Human,Gut,GCA_003691915.1
+PF18573,BclA_C,DTR_287109,BclA C-terminal domain,IMG/M,14861,127,7,0,0,7,Engineered,Wastewater,Anaerobic digestor,NULL
+PF09113,N-glycanase_C,DTR_528305,"Peptide-N-glycosidase F, C terminal",CIBIO,17271,119,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_528305,"Peptide-N-glycosidase F, C terminal",CIBIO,17271,119,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF14099,Polysacc_lyase,DTR_330594,Polysaccharide lyase,IMG/M,15124,127,6,0,0,14,Aquatic,Freshwater,Lake,GCA_003023945.1
+PF14099,Polysacc_lyase,DTR_330594,Polysaccharide lyase,IMG/M,15124,127,6,0,0,14,Aquatic,Freshwater,Lake,GCA_003023945.1
+PF14099,Polysacc_lyase,DTR_330594,Polysaccharide lyase,IMG/M,15124,127,6,0,0,14,Aquatic,Freshwater,Lake,GCA_003023945.1
+PF18628,P2_N,DTR_265978,Viral coat protein P2 N-terminal domain,IMG/M,10256,127,3,0,0,19,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_265978,Viral coat protein P2 N-terminal domain,IMG/M,10256,127,3,0,0,19,Aquatic,Freshwater,Sediment,NULL
+PF09113,N-glycanase_C,DTR_851568,"Peptide-N-glycosidase F, C terminal",HGM,17216,61,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_851568,"Peptide-N-glycosidase F, C terminal",HGM,17216,61,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF12264,Waikav_capsid_1,DTR_197547,Waikavirus capsid protein 1,IMG/M,13966,123,2,0,0,19,Aquatic,Freshwater,Ice,NULL
+PF05373,Pro_3_hydrox_C,DTR_672309,"L-proline 3-hydroxylase, C-terminal",MGnify,10576,55,2,0,0,12,Host-Associated,Human,Gut,NULL
+PF17991,Thioredoxin_10,DTR_833160,Thioredoxin like C-terminal domain,HGM,16408,99,7,0,0,16,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_833160,Thioredoxin like C-terminal domain,HGM,16408,99,7,0,0,16,Host-Associated,Human,Gut,GCA_003691915.1
+PF09092,Lyase_N,DTR_833160,"Lyase, N terminal",HGM,16408,99,7,0,0,16,Host-Associated,Human,Gut,GCA_003691915.1
+PF09113,N-glycanase_C,DTR_785130,"Peptide-N-glycosidase F, C terminal",HGM,17193,45,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_785130,"Peptide-N-glycosidase F, C terminal",HGM,17193,45,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_841340,"Peptide-N-glycosidase F, C terminal",HGM,17233,81,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_841340,"Peptide-N-glycosidase F, C terminal",HGM,17233,81,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18666,CBM64,DTR_786518,Carbohydrate-binding module 64,HGM,9994,99,3,0,0,6,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_786518,Carbohydrate-binding module 64,HGM,9994,99,3,0,0,6,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_786518,Carbohydrate-binding module 64,HGM,9994,99,3,0,0,6,Host-Associated,Human,Gut,NULL
+PF11492,Dicistro_VP4,DTR_099178,"Cricket paralysis virus, VP4",IMG/M,11713,123,3,0,0,24,Aquatic,Freshwater,Groundwater,NULL
+PF11492,Dicistro_VP4,DTR_099178,"Cricket paralysis virus, VP4",IMG/M,11713,123,3,0,0,24,Aquatic,Freshwater,Groundwater,NULL
+PF09113,N-glycanase_C,DTR_831911,"Peptide-N-glycosidase F, C terminal",HGM,17207,55,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_831911,"Peptide-N-glycosidase F, C terminal",HGM,17207,55,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18628,P2_N,DTR_037642,Viral coat protein P2 N-terminal domain,IMG/M,10197,48,4,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_037642,Viral coat protein P2 N-terminal domain,IMG/M,10197,48,4,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF09113,N-glycanase_C,DTR_540212,"Peptide-N-glycosidase F, C terminal",CIBIO,17235,82,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_540212,"Peptide-N-glycosidase F, C terminal",CIBIO,17235,82,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18628,P2_N,DTR_037665,Viral coat protein P2 N-terminal domain,IMG/M,10189,60,3,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_037665,Viral coat protein P2 N-terminal domain,IMG/M,10189,60,3,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF17991,Thioredoxin_10,DTR_508166,Thioredoxin like C-terminal domain,CIBIO,16899,55,7,0,0,17,Host-Associated,Human,Gut,NULL
+PF17991,Thioredoxin_10,DTR_508166,Thioredoxin like C-terminal domain,CIBIO,16899,55,7,0,0,17,Host-Associated,Human,Gut,NULL
+PF17996,CE2_N,DTR_648821,Carbohydrate esterase 2 N-terminal,MGnify,16073,55,4,0,0,19,Engineered,Wastewater,NA,NULL
+PF17996,CE2_N,DTR_648821,Carbohydrate esterase 2 N-terminal,MGnify,16073,55,4,0,0,19,Engineered,Wastewater,NA,NULL
+PF17996,CE2_N,DTR_648821,Carbohydrate esterase 2 N-terminal,MGnify,16073,55,4,0,0,19,Engineered,Wastewater,NA,NULL
+PF00760,Cucumo_coat,DTR_124782,Cucumovirus coat protein,IMG/M,5991,123,1,0,0,5,Engineered,Wastewater,Anaerobic digestor,NULL
+PF20510,HgmA_N,DTR_078632,"Homogentisate 1,2-dioxygenase N-terminal",IMG/M,8887,79,3,1,0,12,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_769635,"Peptide-N-glycosidase F, C terminal",HGM,17173,27,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_769635,"Peptide-N-glycosidase F, C terminal",HGM,17173,27,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_753283,"Peptide-N-glycosidase F, C terminal",HGM,17205,53,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_753283,"Peptide-N-glycosidase F, C terminal",HGM,17205,53,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF02956,TT_ORF1,DTR_331513,TT viral orf 1,IMG/M,10355,127,1,0,0,22,Terrestrial,Deep subsurface,NA,NULL
+PF05737,Collagen_bind,DTR_520055,Collagen binding domain,CIBIO,11388,88,3,0,0,14,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_800219,"Peptide-N-glycosidase F, C terminal",HGM,17255,98,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_800219,"Peptide-N-glycosidase F, C terminal",HGM,17255,98,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF05899,Cupin_3,DTR_311022,EutQ-like cupin domain,IMG/M,15123,127,6,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_311022,EutQ-like cupin domain,IMG/M,15123,127,6,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_311022,EutQ-like cupin domain,IMG/M,15123,127,6,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF17991,Thioredoxin_10,DTR_719332,Thioredoxin like C-terminal domain,MGnify,16416,55,7,0,0,17,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_719332,Thioredoxin like C-terminal domain,MGnify,16416,55,7,0,0,17,Host-Associated,Human,Gut,GCA_003691915.1
+PF18573,BclA_C,DTR_324563,BclA C-terminal domain,IMG/M,11463,127,3,0,1,20,Aquatic,Marine,Oil seeps,NULL
+PF18573,BclA_C,DTR_324563,BclA C-terminal domain,IMG/M,11463,127,3,0,1,20,Aquatic,Marine,Oil seeps,NULL
+PF05118,Asp_Arg_Hydrox,DTR_233705,Aspartyl/Asparaginyl beta-hydroxylase,IMG/M,16157,99,8,0,0,16,Aquatic,Freshwater,Lentic,NULL
+PF09113,N-glycanase_C,DTR_849469,"Peptide-N-glycosidase F, C terminal",HGM,17265,116,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_849469,"Peptide-N-glycosidase F, C terminal",HGM,17265,116,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_791076,"Peptide-N-glycosidase F, C terminal",HGM,17216,64,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_791076,"Peptide-N-glycosidase F, C terminal",HGM,17216,64,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF21471,Reelin_subrepeat-B,DTR_357669,Reelin subrepeat B,IMG/M,14375,127,4,0,0,8,Aquatic,Marine,Wetlands,NULL
+PF21471,Reelin_subrepeat-B,DTR_357669,Reelin subrepeat B,IMG/M,14375,127,4,0,0,8,Aquatic,Marine,Wetlands,NULL
+PF18666,CBM64,DTR_518625,Carbohydrate-binding module 64,CIBIO,10435,119,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_518625,Carbohydrate-binding module 64,CIBIO,10435,119,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_518625,Carbohydrate-binding module 64,CIBIO,10435,119,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_818643,"Peptide-N-glycosidase F, C terminal",HGM,17202,50,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_818643,"Peptide-N-glycosidase F, C terminal",HGM,17202,50,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09144,YpM,DTR_655833,Yersinia pseudo-tuberculosis mitogen,MGnify,9308,55,1,0,0,9,Host-Associated,Human,Gut,NULL
+PF17991,Thioredoxin_10,DTR_623112,Thioredoxin like C-terminal domain,MGnify,16693,55,7,0,0,20,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_623112,Thioredoxin like C-terminal domain,MGnify,16693,55,7,0,0,20,Host-Associated,Human,Gut,GCA_003691915.1
+PF17996,CE2_N,DTR_090134,Carbohydrate esterase 2 N-terminal,IMG/M,16029,123,1,0,0,19,Terrestrial,Soil,Wetlands,NULL
+PF17996,CE2_N,DTR_090134,Carbohydrate esterase 2 N-terminal,IMG/M,16029,123,1,0,0,19,Terrestrial,Soil,Wetlands,NULL
+PF15414,DUF4621,DTR_243530,Protein of unknown function (DUF4621),IMG/M,11411,127,0,0,0,18,Host-Associated,Mammals,Digestive system,NULL
+PF09113,N-glycanase_C,DTR_839786,"Peptide-N-glycosidase F, C terminal",HGM,17220,68,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_839786,"Peptide-N-glycosidase F, C terminal",HGM,17220,68,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_825063,"Peptide-N-glycosidase F, C terminal",HGM,17208,56,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_825063,"Peptide-N-glycosidase F, C terminal",HGM,17208,56,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_835250,"Peptide-N-glycosidase F, C terminal",HGM,17253,92,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_835250,"Peptide-N-glycosidase F, C terminal",HGM,17253,92,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF05899,Cupin_3,DTR_304214,EutQ-like cupin domain,IMG/M,15123,127,5,0,0,15,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_304214,EutQ-like cupin domain,IMG/M,15123,127,5,0,0,15,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_304214,EutQ-like cupin domain,IMG/M,15123,127,5,0,0,15,Aquatic,Freshwater,River,GCA_002609965.1
+PF09113,N-glycanase_C,DTR_832976,"Peptide-N-glycosidase F, C terminal",HGM,17220,68,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_832976,"Peptide-N-glycosidase F, C terminal",HGM,17220,68,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18099,CBM_35_2,DTR_255641,Carbohydrate binding module (family 35),IMG/M,7885,112,1,0,0,10,Aquatic,Non-marine saline,Saline,NULL
+PF18099,CBM_35_2,DTR_255641,Carbohydrate binding module (family 35),IMG/M,7885,112,1,0,0,10,Aquatic,Non-marine saline,Saline,NULL
+PF18099,CBM_35_2,DTR_255641,Carbohydrate binding module (family 35),IMG/M,7885,112,1,0,0,10,Aquatic,Non-marine saline,Saline,NULL
+PF18628,P2_N,DTR_208552,Viral coat protein P2 N-terminal domain,IMG/M,12447,123,2,0,0,26,Aquatic,Sediment,NA,NULL
+PF18628,P2_N,DTR_208552,Viral coat protein P2 N-terminal domain,IMG/M,12447,123,2,0,0,26,Aquatic,Sediment,NA,NULL
+PF18628,P2_N,DTR_265689,Viral coat protein P2 N-terminal domain,IMG/M,10256,127,3,0,0,21,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_265689,Viral coat protein P2 N-terminal domain,IMG/M,10256,127,3,0,0,21,Aquatic,Freshwater,Sediment,NULL
+PF09018,Phage_Capsid_P3,DTR_300199,P3 major capsid protein,IMG/M,17122,127,7,0,0,25,Aquatic,Freshwater,River,NULL
+PF17991,Thioredoxin_10,DTR_848521,Thioredoxin like C-terminal domain,HGM,16260,119,6,0,0,17,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_848521,Thioredoxin like C-terminal domain,HGM,16260,119,6,0,0,17,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_806832,Thioredoxin like C-terminal domain,HGM,16737,99,7,0,0,20,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_806832,Thioredoxin like C-terminal domain,HGM,16737,99,7,0,0,20,Host-Associated,Human,Gut,GCA_003691915.1
+PF21340,Polysacc_lyase-like,DTR_203355,"Cip1-like, core domain",IMG/M,9134,111,2,0,0,14,Aquatic,Non-marine saline,Hypersaline,NULL
+PF21340,Polysacc_lyase-like,DTR_203355,"Cip1-like, core domain",IMG/M,9134,111,2,0,0,14,Aquatic,Non-marine saline,Hypersaline,NULL
+PF18573,BclA_C,DTR_073934,BclA C-terminal domain,IMG/M,11887,123,4,0,0,19,Aquatic,Marine,Oceanic,NULL
+PF18573,BclA_C,DTR_073934,BclA C-terminal domain,IMG/M,11887,123,4,0,0,19,Aquatic,Marine,Oceanic,NULL
+PF05118,Asp_Arg_Hydrox,DTR_073934,Aspartyl/Asparaginyl beta-hydroxylase,IMG/M,11887,123,4,0,0,19,Aquatic,Marine,Oceanic,NULL
+PF09113,N-glycanase_C,DTR_673045,"Peptide-N-glycosidase F, C terminal",MGnify,17182,30,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_673045,"Peptide-N-glycosidase F, C terminal",MGnify,17182,30,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09092,Lyase_N,DTR_833096,"Lyase, N terminal",HGM,16402,93,7,0,0,16,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_833096,Thioredoxin like C-terminal domain,HGM,16402,93,7,0,0,16,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_833096,Thioredoxin like C-terminal domain,HGM,16402,93,7,0,0,16,Host-Associated,Human,Gut,GCA_003691915.1
+PF18628,P2_N,DTR_265302,Viral coat protein P2 N-terminal domain,IMG/M,10583,127,4,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_265302,Viral coat protein P2 N-terminal domain,IMG/M,10583,127,4,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF09113,N-glycanase_C,DTR_863245,"Peptide-N-glycosidase F, C terminal",HGM,17176,24,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_863245,"Peptide-N-glycosidase F, C terminal",HGM,17176,24,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18666,CBM64,DTR_830853,Carbohydrate-binding module 64,HGM,9866,99,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_830853,Carbohydrate-binding module 64,HGM,9866,99,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_830853,Carbohydrate-binding module 64,HGM,9866,99,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_787027,"Peptide-N-glycosidase F, C terminal",HGM,17241,89,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_787027,"Peptide-N-glycosidase F, C terminal",HGM,17241,89,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF03678,Adeno_hexon_C,DTR_011528,"Hexon, adenovirus major coat protein, C-terminal domain",IMG/M,14358,101,4,0,0,13,Aquatic,Non-marine saline,Hypersaline,NULL
+PF09113,N-glycanase_C,DTR_804839,"Peptide-N-glycosidase F, C terminal",HGM,17237,85,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_804839,"Peptide-N-glycosidase F, C terminal",HGM,17237,85,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF16903,Capsid_N,DTR_024522,Major capsid protein N-terminus,IMG/M,16191,67,2,0,0,22,Aquatic,Freshwater,Lentic,NULL
+PF07953,Toxin_R_bind_N,DTR_892420,"Clostridium neurotoxin, N-terminal receptor binding",GOV2,11464,55,4,0,1,14,Aquatic,Marine,NA,NULL
+PF09113,N-glycanase_C,DTR_775510,"Peptide-N-glycosidase F, C terminal",HGM,17179,45,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_775510,"Peptide-N-glycosidase F, C terminal",HGM,17179,45,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18666,CBM64,DTR_422455,Carbohydrate-binding module 64,CIBIO,9830,61,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_422455,Carbohydrate-binding module 64,CIBIO,9830,61,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_422455,Carbohydrate-binding module 64,CIBIO,9830,61,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF14099,Polysacc_lyase,DTR_346684,Polysaccharide lyase,IMG/M,14805,127,1,0,0,28,Host-Associated,Plants,Rhizosphere,NULL
+PF18573,BclA_C,DTR_065945,BclA C-terminal domain,IMG/M,12859,38,2,0,0,22,Aquatic,Marine,Oceanic,NULL
+PF18573,BclA_C,DTR_065945,BclA C-terminal domain,IMG/M,12859,38,2,0,0,22,Aquatic,Marine,Oceanic,NULL
+PF18425,CspB_prodomain,DTR_346876,Csp protease B prodomain,IMG/M,19742,127,8,0,0,17,Aquatic,Freshwater,Lake,NULL
+PF18425,CspB_prodomain,DTR_346876,Csp protease B prodomain,IMG/M,19742,127,8,0,0,17,Aquatic,Freshwater,Lake,NULL
+PF00760,Cucumo_coat,DTR_676592,Cucumovirus coat protein,MGnify,5923,55,1,0,0,6,Engineered,Wastewater,NA,NULL
+PF14099,Polysacc_lyase,DTR_330543,Polysaccharide lyase,IMG/M,15124,127,6,0,0,14,Aquatic,Freshwater,Lake,GCA_003023945.1
+PF14099,Polysacc_lyase,DTR_330543,Polysaccharide lyase,IMG/M,15124,127,6,0,0,14,Aquatic,Freshwater,Lake,GCA_003023945.1
+PF14099,Polysacc_lyase,DTR_330543,Polysaccharide lyase,IMG/M,15124,127,6,0,0,14,Aquatic,Freshwater,Lake,GCA_003023945.1
+PF09113,N-glycanase_C,DTR_532795,"Peptide-N-glycosidase F, C terminal",CIBIO,17319,100,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_532795,"Peptide-N-glycosidase F, C terminal",CIBIO,17319,100,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18666,CBM64,DTR_524980,Carbohydrate-binding module 64,CIBIO,10292,89,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_524980,Carbohydrate-binding module 64,CIBIO,10292,89,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_524980,Carbohydrate-binding module 64,CIBIO,10292,89,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_794736,"Peptide-N-glycosidase F, C terminal",HGM,17245,93,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_794736,"Peptide-N-glycosidase F, C terminal",HGM,17245,93,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF02956,TT_ORF1,DTR_264223,TT viral orf 1,IMG/M,9396,127,3,0,0,16,Aquatic,Freshwater,River,NULL
+PF00738,Polyhedrin,DTR_534463,Polyhedrin,CIBIO,13319,21,3,0,0,17,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_739153,"Peptide-N-glycosidase F, C terminal",HGM,17243,91,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_739153,"Peptide-N-glycosidase F, C terminal",HGM,17243,91,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09092,Lyase_N,DTR_559638,"Lyase, N terminal",MGnify,15871,127,7,0,0,19,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_559638,Thioredoxin like C-terminal domain,MGnify,15871,127,7,0,0,19,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_559638,Thioredoxin like C-terminal domain,MGnify,15871,127,7,0,0,19,Host-Associated,Human,Gut,GCA_003691915.1
+PF09113,N-glycanase_C,DTR_757785,"Peptide-N-glycosidase F, C terminal",HGM,17207,61,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_757785,"Peptide-N-glycosidase F, C terminal",HGM,17207,61,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_124014,"Peptide-N-glycosidase F, C terminal",IMG/M,15171,123,7,0,0,10,Engineered,Bioreactor,Anaerobic,NULL
+PF09113,N-glycanase_C,DTR_524159,"Peptide-N-glycosidase F, C terminal",CIBIO,17275,114,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_524159,"Peptide-N-glycosidase F, C terminal",CIBIO,17275,114,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF17974,GalBD_like,DTR_179950,Galactose-binding domain-like,IMG/M,14231,77,3,0,1,17,Host-Associated,Mammals,Digestive system,NULL
+PF17974,GalBD_like,DTR_179950,Galactose-binding domain-like,IMG/M,14231,77,3,0,1,17,Host-Associated,Mammals,Digestive system,NULL
+PF05899,Cupin_3,DTR_304125,EutQ-like cupin domain,IMG/M,15123,127,5,0,0,15,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_304125,EutQ-like cupin domain,IMG/M,15123,127,5,0,0,15,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_304125,EutQ-like cupin domain,IMG/M,15123,127,5,0,0,15,Aquatic,Freshwater,River,GCA_002609965.1
+PF09113,N-glycanase_C,DTR_796955,"Peptide-N-glycosidase F, C terminal",HGM,17248,99,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_796955,"Peptide-N-glycosidase F, C terminal",HGM,17248,99,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_829513,"Peptide-N-glycosidase F, C terminal",HGM,17268,89,3,0,0,14,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_829513,"Peptide-N-glycosidase F, C terminal",HGM,17268,89,3,0,0,14,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_853908,"Peptide-N-glycosidase F, C terminal",HGM,17221,69,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_853908,"Peptide-N-glycosidase F, C terminal",HGM,17221,69,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18628,P2_N,DTR_648228,Viral coat protein P2 N-terminal domain,MGnify,12353,55,2,0,0,17,Engineered,Wastewater,NA,NULL
+PF18628,P2_N,DTR_648228,Viral coat protein P2 N-terminal domain,MGnify,12353,55,2,0,0,17,Engineered,Wastewater,NA,NULL
+PF18628,P2_N,DTR_648228,Viral coat protein P2 N-terminal domain,MGnify,12353,55,2,0,0,17,Engineered,Wastewater,NA,NULL
+PF18666,CBM64,DTR_827954,Carbohydrate-binding module 64,HGM,9994,99,3,0,0,6,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_827954,Carbohydrate-binding module 64,HGM,9994,99,3,0,0,6,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_827954,Carbohydrate-binding module 64,HGM,9994,99,3,0,0,6,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_791778,"Peptide-N-glycosidase F, C terminal",HGM,17232,80,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_791778,"Peptide-N-glycosidase F, C terminal",HGM,17232,80,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_809800,"Peptide-N-glycosidase F, C terminal",HGM,17196,44,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_809800,"Peptide-N-glycosidase F, C terminal",HGM,17196,44,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_812149,"Peptide-N-glycosidase F, C terminal",HGM,17240,88,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_812149,"Peptide-N-glycosidase F, C terminal",HGM,17240,88,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_186455,"Peptide-N-glycosidase F, C terminal",IMG/M,17201,49,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_186455,"Peptide-N-glycosidase F, C terminal",IMG/M,17201,49,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF14099,Polysacc_lyase,DTR_351853,Polysaccharide lyase,IMG/M,14806,127,1,0,0,28,Host-Associated,Plants,Rhizosphere,NULL
+PF09112,N-glycanase_N,DTR_545312,"Peptide-N-glycosidase F, N terminal",CIBIO,12724,79,5,0,0,12,Host-Associated,Human,Gut,NULL
+PF09112,N-glycanase_N,DTR_545312,"Peptide-N-glycosidase F, N terminal",CIBIO,12724,79,5,0,0,12,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_714445,"Peptide-N-glycosidase F, C terminal",MGnify,17207,55,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_714445,"Peptide-N-glycosidase F, C terminal",MGnify,17207,55,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_536071,"Peptide-N-glycosidase F, C terminal",CIBIO,17221,60,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_536071,"Peptide-N-glycosidase F, C terminal",CIBIO,17221,60,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF17991,Thioredoxin_10,DTR_561383,Thioredoxin like C-terminal domain,MGnify,16741,127,7,0,0,21,Host-Associated,Human,Gut,NULL
+PF17991,Thioredoxin_10,DTR_561383,Thioredoxin like C-terminal domain,MGnify,16741,127,7,0,0,21,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_471347,"Peptide-N-glycosidase F, C terminal",CIBIO,17172,20,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_471347,"Peptide-N-glycosidase F, C terminal",CIBIO,17172,20,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF03566,Peptidase_A21,DTR_065538,Peptidase family A21,IMG/M,16958,100,8,0,0,22,Terrestrial,Deep subsurface,NA,NULL
+PF09113,N-glycanase_C,DTR_787691,"Peptide-N-glycosidase F, C terminal",HGM,17216,64,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_787691,"Peptide-N-glycosidase F, C terminal",HGM,17216,64,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_742310,"Peptide-N-glycosidase F, C terminal",HGM,17238,86,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_742310,"Peptide-N-glycosidase F, C terminal",HGM,17238,86,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18425,CspB_prodomain,DTR_345737,Csp protease B prodomain,IMG/M,19742,127,8,0,0,17,Aquatic,Freshwater,Lake,NULL
+PF18425,CspB_prodomain,DTR_345737,Csp protease B prodomain,IMG/M,19742,127,8,0,0,17,Aquatic,Freshwater,Lake,NULL
+PF09113,N-glycanase_C,DTR_829403,"Peptide-N-glycosidase F, C terminal",HGM,17192,37,3,0,0,14,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_829403,"Peptide-N-glycosidase F, C terminal",HGM,17192,37,3,0,0,14,Host-Associated,Human,Gut,GCA_003502105.1
+PF18573,BclA_C,DTR_229765,BclA C-terminal domain,IMG/M,8392,38,3,0,0,5,Aquatic,Marine,NA,NULL
+PF18573,BclA_C,DTR_229765,BclA C-terminal domain,IMG/M,8392,38,3,0,0,5,Aquatic,Marine,NA,NULL
+PF18573,BclA_C,DTR_229765,BclA C-terminal domain,IMG/M,8392,38,3,0,0,5,Aquatic,Marine,NA,NULL
+PF09113,N-glycanase_C,DTR_696026,"Peptide-N-glycosidase F, C terminal",MGnify,17186,34,4,0,0,13,Engineered,Wastewater,NA,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_696026,"Peptide-N-glycosidase F, C terminal",MGnify,17186,34,4,0,0,13,Engineered,Wastewater,NA,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_519996,"Peptide-N-glycosidase F, C terminal",CIBIO,17221,60,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_519996,"Peptide-N-glycosidase F, C terminal",CIBIO,17221,60,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18666,CBM64,DTR_532345,Carbohydrate-binding module 64,CIBIO,10376,60,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_532345,Carbohydrate-binding module 64,CIBIO,10376,60,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_532345,Carbohydrate-binding module 64,CIBIO,10376,60,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_594196,"Peptide-N-glycosidase F, C terminal",MGnify,17177,25,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_594196,"Peptide-N-glycosidase F, C terminal",MGnify,17177,25,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_770757,"Peptide-N-glycosidase F, C terminal",HGM,17216,64,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_770757,"Peptide-N-glycosidase F, C terminal",HGM,17216,64,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF20510,HgmA_N,DTR_827601,"Homogentisate 1,2-dioxygenase N-terminal",HGM,8901,24,3,1,0,11,Host-Associated,Human,Gut,NULL
+PF00983,Tymo_coat,DTR_315726,Tymovirus coat protein,IMG/M,12783,99,1,0,0,27,Aquatic,Freshwater,Lake,NULL
+PF09113,N-glycanase_C,DTR_752672,"Peptide-N-glycosidase F, C terminal",HGM,17218,66,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_752672,"Peptide-N-glycosidase F, C terminal",HGM,17218,66,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18666,CBM64,DTR_523277,Carbohydrate-binding module 64,CIBIO,10376,60,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_523277,Carbohydrate-binding module 64,CIBIO,10376,60,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_523277,Carbohydrate-binding module 64,CIBIO,10376,60,3,0,0,8,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_624524,"Peptide-N-glycosidase F, C terminal",MGnify,17180,28,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_624524,"Peptide-N-glycosidase F, C terminal",MGnify,17180,28,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18573,BclA_C,DTR_718263,BclA C-terminal domain,MGnify,18541,55,3,0,0,17,NA,NA,NA,NULL
+PF09113,N-glycanase_C,DTR_857869,"Peptide-N-glycosidase F, C terminal",HGM,17179,27,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_857869,"Peptide-N-glycosidase F, C terminal",HGM,17179,27,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18666,CBM64,DTR_831389,Carbohydrate-binding module 64,HGM,9994,99,3,0,0,6,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_831389,Carbohydrate-binding module 64,HGM,9994,99,3,0,0,6,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_831389,Carbohydrate-binding module 64,HGM,9994,99,3,0,0,6,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_805554,"Peptide-N-glycosidase F, C terminal",HGM,17252,99,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_805554,"Peptide-N-glycosidase F, C terminal",HGM,17252,99,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18628,P2_N,DTR_037153,Viral coat protein P2 N-terminal domain,IMG/M,10316,59,4,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_037153,Viral coat protein P2 N-terminal domain,IMG/M,10316,59,4,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF09113,N-glycanase_C,DTR_799239,"Peptide-N-glycosidase F, C terminal",HGM,17188,36,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_799239,"Peptide-N-glycosidase F, C terminal",HGM,17188,36,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF17991,Thioredoxin_10,DTR_856653,Thioredoxin like C-terminal domain,HGM,16632,59,7,0,0,20,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_856653,Thioredoxin like C-terminal domain,HGM,16632,59,7,0,0,20,Host-Associated,Human,Gut,GCA_003691915.1
+PF09113,N-glycanase_C,DTR_839769,"Peptide-N-glycosidase F, C terminal",HGM,17245,93,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_839769,"Peptide-N-glycosidase F, C terminal",HGM,17245,93,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF05899,Cupin_3,DTR_304278,EutQ-like cupin domain,IMG/M,15123,127,6,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_304278,EutQ-like cupin domain,IMG/M,15123,127,6,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF05899,Cupin_3,DTR_304278,EutQ-like cupin domain,IMG/M,15123,127,6,0,0,14,Aquatic,Freshwater,River,GCA_002609965.1
+PF09113,N-glycanase_C,DTR_850159,"Peptide-N-glycosidase F, C terminal",HGM,17214,62,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_850159,"Peptide-N-glycosidase F, C terminal",HGM,17214,62,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF03367,zf-ZPR1,DTR_891680,ZPR1 zinc-finger domain,GOV2,10915,1882,0,0,0,16,Aquatic,Marine,NA,NULL
+PF09113,N-glycanase_C,DTR_768384,"Peptide-N-glycosidase F, C terminal",HGM,17222,61,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_768384,"Peptide-N-glycosidase F, C terminal",HGM,17222,61,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18573,BclA_C,DTR_284463,BclA C-terminal domain,IMG/M,11801,127,4,0,1,17,Aquatic,Non-marine saline,Saline,NULL
+PF09113,N-glycanase_C,DTR_716447,"Peptide-N-glycosidase F, C terminal",MGnify,17216,55,4,0,0,13,NA,NA,NA,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_716447,"Peptide-N-glycosidase F, C terminal",MGnify,17216,55,4,0,0,13,NA,NA,NA,GCA_003502105.1
+PF17991,Thioredoxin_10,DTR_706297,Thioredoxin like C-terminal domain,MGnify,16641,55,7,0,0,17,Host-Associated,Human,Gut,NULL
+PF17991,Thioredoxin_10,DTR_706297,Thioredoxin like C-terminal domain,MGnify,16641,55,7,0,0,17,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_842908,"Peptide-N-glycosidase F, C terminal",HGM,17292,128,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_842908,"Peptide-N-glycosidase F, C terminal",HGM,17292,128,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF17991,Thioredoxin_10,DTR_671853,Thioredoxin like C-terminal domain,MGnify,16196,55,6,0,0,18,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_671853,Thioredoxin like C-terminal domain,MGnify,16196,55,6,0,0,18,Host-Associated,Human,Gut,GCA_003691915.1
+PF09101,Exotox-A_bind,DTR_511018,Exotoxin A binding,CIBIO,8536,29,4,0,0,13,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_666077,"Peptide-N-glycosidase F, C terminal",MGnify,17206,54,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_666077,"Peptide-N-glycosidase F, C terminal",MGnify,17206,54,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_830477,"Peptide-N-glycosidase F, C terminal",HGM,17231,45,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_830477,"Peptide-N-glycosidase F, C terminal",HGM,17231,45,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18628,P2_N,DTR_641932,Viral coat protein P2 N-terminal domain,MGnify,9179,55,3,0,0,17,Aquatic,Marine,NA,NULL
+PF18628,P2_N,DTR_641932,Viral coat protein P2 N-terminal domain,MGnify,9179,55,3,0,0,17,Aquatic,Marine,NA,NULL
+PF09113,N-glycanase_C,DTR_099786,"Peptide-N-glycosidase F, C terminal",IMG/M,17260,99,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_099786,"Peptide-N-glycosidase F, C terminal",IMG/M,17260,99,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_419591,"Peptide-N-glycosidase F, C terminal",CIBIO,17194,42,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_419591,"Peptide-N-glycosidase F, C terminal",CIBIO,17194,42,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18666,CBM64,DTR_848055,Carbohydrate-binding module 64,HGM,9885,119,2,0,0,9,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_848055,Carbohydrate-binding module 64,HGM,9885,119,2,0,0,9,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_848055,Carbohydrate-binding module 64,HGM,9885,119,2,0,0,9,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_753843,"Peptide-N-glycosidase F, C terminal",HGM,17185,33,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_753843,"Peptide-N-glycosidase F, C terminal",HGM,17185,33,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_795921,"Peptide-N-glycosidase F, C terminal",HGM,17190,41,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_795921,"Peptide-N-glycosidase F, C terminal",HGM,17190,41,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF00760,Cucumo_coat,DTR_713157,Cucumovirus coat protein,MGnify,17421,28,7,0,0,18,Host-Associated,Human,Gut,GCA_000915675.1
+PF09113,N-glycanase_C,DTR_844759,"Peptide-N-glycosidase F, C terminal",HGM,17189,37,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_844759,"Peptide-N-glycosidase F, C terminal",HGM,17189,37,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09144,YpM,DTR_719397,Yersinia pseudo-tuberculosis mitogen,MGnify,9308,55,1,0,0,10,Host-Associated,Human,Gut,NULL
+PF00760,Cucumo_coat,DTR_773801,Cucumovirus coat protein,HGM,17525,41,7,0,0,19,Host-Associated,Human,Gut,GCA_000915675.1
+PF14099,Polysacc_lyase,DTR_316112,Polysaccharide lyase,IMG/M,19421,40,7,0,1,18,Aquatic,Freshwater,Lentic,NULL
+PF09113,N-glycanase_C,DTR_750260,"Peptide-N-glycosidase F, C terminal",HGM,17201,49,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_750260,"Peptide-N-glycosidase F, C terminal",HGM,17201,49,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18666,CBM64,DTR_820634,Carbohydrate-binding module 64,HGM,9990,95,3,0,0,6,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_820634,Carbohydrate-binding module 64,HGM,9990,95,3,0,0,6,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_820634,Carbohydrate-binding module 64,HGM,9990,95,3,0,0,6,Host-Associated,Human,Gut,NULL
+PF18628,P2_N,DTR_265747,Viral coat protein P2 N-terminal domain,IMG/M,10312,99,4,0,0,21,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_265747,Viral coat protein P2 N-terminal domain,IMG/M,10312,99,4,0,0,21,Aquatic,Freshwater,Sediment,NULL
+PF14099,Polysacc_lyase,DTR_110264,Polysaccharide lyase,IMG/M,15368,123,9,0,0,12,Aquatic,Freshwater,Lake,NULL
+PF14099,Polysacc_lyase,DTR_110264,Polysaccharide lyase,IMG/M,15368,123,9,0,0,12,Aquatic,Freshwater,Lake,NULL
+PF07953,Toxin_R_bind_N,DTR_889812,"Clostridium neurotoxin, N-terminal receptor binding",GOV2,11857,55,3,0,0,21,Aquatic,Marine,NA,NULL
+PF09113,N-glycanase_C,DTR_101886,"Peptide-N-glycosidase F, C terminal",IMG/M,17209,57,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_101886,"Peptide-N-glycosidase F, C terminal",IMG/M,17209,57,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_737425,"Peptide-N-glycosidase F, C terminal",HGM,17218,66,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_737425,"Peptide-N-glycosidase F, C terminal",HGM,17218,66,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF16903,Capsid_N,DTR_280192,Major capsid protein N-terminus,IMG/M,16185,99,3,0,0,19,Aquatic,Freshwater,Lentic,NULL
+PF18628,P2_N,DTR_038017,Viral coat protein P2 N-terminal domain,IMG/M,10189,40,4,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_038017,Viral coat protein P2 N-terminal domain,IMG/M,10189,40,4,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF05373,Pro_3_hydrox_C,DTR_486120,"L-proline 3-hydroxylase, C-terminal",CIBIO,10576,55,2,0,0,12,Host-Associated,Human,Gut,NULL
+PF18628,P2_N,DTR_265531,Viral coat protein P2 N-terminal domain,IMG/M,10341,127,4,0,0,21,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_265531,Viral coat protein P2 N-terminal domain,IMG/M,10341,127,4,0,0,21,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_265531,Viral coat protein P2 N-terminal domain,IMG/M,10341,127,4,0,0,21,Aquatic,Freshwater,Sediment,NULL
+PF18573,BclA_C,DTR_073931,BclA C-terminal domain,IMG/M,12461,123,3,1,0,20,Aquatic,Marine,Oceanic,NULL
+PF18666,CBM64,DTR_827411,Carbohydrate-binding module 64,HGM,9817,48,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_827411,Carbohydrate-binding module 64,HGM,9817,48,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_827411,Carbohydrate-binding module 64,HGM,9817,48,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF17991,Thioredoxin_10,DTR_501585,Thioredoxin like C-terminal domain,CIBIO,16051,55,8,0,0,17,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_501585,Thioredoxin like C-terminal domain,CIBIO,16051,55,8,0,0,17,Host-Associated,Human,Gut,GCA_003691915.1
+PF18666,CBM64,DTR_819528,Carbohydrate-binding module 64,HGM,9648,95,2,0,0,6,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_819528,Carbohydrate-binding module 64,HGM,9648,95,2,0,0,6,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_819528,Carbohydrate-binding module 64,HGM,9648,95,2,0,0,6,Host-Associated,Human,Gut,NULL
+PF20510,HgmA_N,DTR_410288,"Homogentisate 1,2-dioxygenase N-terminal",CIBIO,8423,30,3,1,0,10,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_821323,"Peptide-N-glycosidase F, C terminal",HGM,17220,68,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_821323,"Peptide-N-glycosidase F, C terminal",HGM,17220,68,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF05899,Cupin_3,DTR_009823,EutQ-like cupin domain,IMG/M,9969,77,3,0,0,14,Aquatic,Non-marine saline,Alkaline,NULL
+PF05899,Cupin_3,DTR_009823,EutQ-like cupin domain,IMG/M,9969,77,3,0,0,14,Aquatic,Non-marine saline,Alkaline,NULL
+PF18628,P2_N,DTR_265977,Viral coat protein P2 N-terminal domain,IMG/M,10384,127,4,0,0,21,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_265977,Viral coat protein P2 N-terminal domain,IMG/M,10384,127,4,0,0,21,Aquatic,Freshwater,Sediment,NULL
+PF09113,N-glycanase_C,DTR_431692,"Peptide-N-glycosidase F, C terminal",CIBIO,17173,21,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_431692,"Peptide-N-glycosidase F, C terminal",CIBIO,17173,21,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09092,Lyase_N,DTR_831713,"Lyase, N terminal",HGM,16408,99,7,0,0,16,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_831713,Thioredoxin like C-terminal domain,HGM,16408,99,7,0,0,16,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_831713,Thioredoxin like C-terminal domain,HGM,16408,99,7,0,0,16,Host-Associated,Human,Gut,GCA_003691915.1
+PF18425,CspB_prodomain,DTR_345868,Csp protease B prodomain,IMG/M,19735,120,8,0,0,16,Aquatic,Freshwater,Lake,NULL
+PF18425,CspB_prodomain,DTR_345868,Csp protease B prodomain,IMG/M,19735,120,8,0,0,16,Aquatic,Freshwater,Lake,NULL
+PF14717,DUF4465,DTR_047208,Domain of unknown function (DUF4465),IMG/M,9983,100,1,0,0,15,Terrestrial,Soil,NA,NULL
+PF13157,Enas,DTR_628537,Endospore appendages,MGnify,8965,55,1,0,0,12,Aquatic,Marine,NA,NULL
+PF09113,N-glycanase_C,DTR_372541,"Peptide-N-glycosidase F, C terminal",CIBIO,17181,29,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_372541,"Peptide-N-glycosidase F, C terminal",CIBIO,17181,29,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF05737,Collagen_bind,DTR_527788,Collagen binding domain,CIBIO,11388,88,3,0,0,14,Host-Associated,Human,Gut,NULL
+PF21510,PirA-like,DTR_076975,PirA-like,IMG/M,19118,81,18,0,0,10,Host-Associated,Human,Oral,GCA_000922715.1
+PF17991,Thioredoxin_10,DTR_790829,Thioredoxin like C-terminal domain,HGM,16768,99,7,0,0,18,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_790829,Thioredoxin like C-terminal domain,HGM,16768,99,7,0,0,18,Host-Associated,Human,Gut,GCA_003691915.1
+PF09092,Lyase_N,DTR_790829,"Lyase, N terminal",HGM,16768,99,7,0,0,18,Host-Associated,Human,Gut,GCA_003691915.1
+PF09113,N-glycanase_C,DTR_103100,"Peptide-N-glycosidase F, C terminal",IMG/M,17231,45,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_103100,"Peptide-N-glycosidase F, C terminal",IMG/M,17231,45,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_682166,"Peptide-N-glycosidase F, C terminal",MGnify,17229,77,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_682166,"Peptide-N-glycosidase F, C terminal",MGnify,17229,77,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18666,CBM64,DTR_560002,Carbohydrate-binding module 64,MGnify,9897,127,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_560002,Carbohydrate-binding module 64,MGnify,9897,127,2,0,0,8,Host-Associated,Human,Gut,NULL
+PF18573,BclA_C,DTR_551916,BclA C-terminal domain,CIBIO,19857,98,18,1,0,9,Host-Associated,Human,Gut,GCA_004779345.1
+PF18573,BclA_C,DTR_551916,BclA C-terminal domain,CIBIO,19857,98,18,1,0,9,Host-Associated,Human,Gut,GCA_004779345.1
+PF09113,N-glycanase_C,DTR_758169,"Peptide-N-glycosidase F, C terminal",HGM,17213,61,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_758169,"Peptide-N-glycosidase F, C terminal",HGM,17213,61,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18573,BclA_C,DTR_364427,BclA C-terminal domain,IMG/M,11801,127,4,0,1,16,Aquatic,Non-marine saline,Saline,NULL
+PF18666,CBM64,DTR_825214,Carbohydrate-binding module 64,HGM,9614,88,2,0,0,7,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_825214,Carbohydrate-binding module 64,HGM,9614,88,2,0,0,7,Host-Associated,Human,Gut,NULL
+PF18666,CBM64,DTR_825214,Carbohydrate-binding module 64,HGM,9614,88,2,0,0,7,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_415277,"Peptide-N-glycosidase F, C terminal",CIBIO,17172,20,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_415277,"Peptide-N-glycosidase F, C terminal",CIBIO,17172,20,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_625419,"Peptide-N-glycosidase F, C terminal",MGnify,17176,24,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_625419,"Peptide-N-glycosidase F, C terminal",MGnify,17176,24,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09018,Phage_Capsid_P3,DTR_295953,P3 major capsid protein,IMG/M,18519,127,1,0,0,38,Host-Associated,Plants,Rhizoplane,NULL
+PF07953,Toxin_R_bind_N,DTR_183901,"Clostridium neurotoxin, N-terminal receptor binding",IMG/M,12239,123,4,0,0,22,Aquatic,Freshwater,Groundwater,NULL
+PF07953,Toxin_R_bind_N,DTR_183901,"Clostridium neurotoxin, N-terminal receptor binding",IMG/M,12239,123,4,0,0,22,Aquatic,Freshwater,Groundwater,NULL
+PF09113,N-glycanase_C,DTR_840322,"Peptide-N-glycosidase F, C terminal",HGM,17268,89,3,0,0,14,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_840322,"Peptide-N-glycosidase F, C terminal",HGM,17268,89,3,0,0,14,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_830117,"Peptide-N-glycosidase F, C terminal",HGM,17220,68,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_830117,"Peptide-N-glycosidase F, C terminal",HGM,17220,68,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_861772,"Peptide-N-glycosidase F, C terminal",HGM,17224,72,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_861772,"Peptide-N-glycosidase F, C terminal",HGM,17224,72,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_794932,"Peptide-N-glycosidase F, C terminal",HGM,17245,93,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_794932,"Peptide-N-glycosidase F, C terminal",HGM,17245,93,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18573,BclA_C,DTR_285921,BclA C-terminal domain,IMG/M,11801,127,4,0,1,16,Aquatic,Non-marine saline,Saline,NULL
+PF09113,N-glycanase_C,DTR_835211,"Peptide-N-glycosidase F, C terminal",HGM,17219,58,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_835211,"Peptide-N-glycosidase F, C terminal",HGM,17219,58,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF05899,Cupin_3,DTR_315534,EutQ-like cupin domain,IMG/M,18494,99,11,0,0,25,Aquatic,Freshwater,Lentic,NULL
+PF05899,Cupin_3,DTR_315534,EutQ-like cupin domain,IMG/M,18494,99,11,0,0,25,Aquatic,Freshwater,Lentic,NULL
+PF09113,N-glycanase_C,DTR_787647,"Peptide-N-glycosidase F, C terminal",HGM,17216,64,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_787647,"Peptide-N-glycosidase F, C terminal",HGM,17216,64,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF18628,P2_N,DTR_265484,Viral coat protein P2 N-terminal domain,IMG/M,10792,127,3,0,0,21,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_265484,Viral coat protein P2 N-terminal domain,IMG/M,10792,127,3,0,0,21,Aquatic,Freshwater,Sediment,NULL
+PF09113,N-glycanase_C,DTR_835502,"Peptide-N-glycosidase F, C terminal",HGM,17239,84,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_835502,"Peptide-N-glycosidase F, C terminal",HGM,17239,84,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF21340,Polysacc_lyase-like,DTR_208283,"Cip1-like, core domain",IMG/M,9134,111,2,0,0,14,Aquatic,Non-marine saline,Hypersaline,NULL
+PF21340,Polysacc_lyase-like,DTR_208283,"Cip1-like, core domain",IMG/M,9134,111,2,0,0,14,Aquatic,Non-marine saline,Hypersaline,NULL
+PF21454,MSP1_barrel,DTR_008128,"Major structural protein 1, jelly-roll domain",IMG/M,6144,46,2,0,0,2,Aquatic,Marine,Oceanic,NULL
+PF17991,Thioredoxin_10,DTR_482508,Thioredoxin like C-terminal domain,CIBIO,16196,55,6,0,0,18,Host-Associated,Human,Gut,GCA_003691915.1
+PF17991,Thioredoxin_10,DTR_482508,Thioredoxin like C-terminal domain,CIBIO,16196,55,6,0,0,18,Host-Associated,Human,Gut,GCA_003691915.1
+PF18628,P2_N,DTR_036784,Viral coat protein P2 N-terminal domain,IMG/M,10181,52,3,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF18628,P2_N,DTR_036784,Viral coat protein P2 N-terminal domain,IMG/M,10181,52,3,0,0,20,Aquatic,Freshwater,Sediment,NULL
+PF17991,Thioredoxin_10,DTR_719345,Thioredoxin like C-terminal domain,MGnify,16416,55,8,0,0,17,Host-Associated,Human,Gut,NULL
+PF17991,Thioredoxin_10,DTR_719345,Thioredoxin like C-terminal domain,MGnify,16416,55,8,0,0,17,Host-Associated,Human,Gut,NULL
+PF09113,N-glycanase_C,DTR_833896,"Peptide-N-glycosidase F, C terminal",HGM,17253,92,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_833896,"Peptide-N-glycosidase F, C terminal",HGM,17253,92,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_852776,"Peptide-N-glycosidase F, C terminal",HGM,17204,37,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_852776,"Peptide-N-glycosidase F, C terminal",HGM,17204,37,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF13157,Enas,DTR_047003,Endospore appendages,IMG/M,4314,90,1,0,0,9,Aquatic,Freshwater,Lentic,NULL
+PF13157,Enas,DTR_047003,Endospore appendages,IMG/M,4314,90,1,0,0,9,Aquatic,Freshwater,Lentic,NULL
+PF09113,N-glycanase_C,DTR_827005,"Peptide-N-glycosidase F, C terminal",HGM,17253,92,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
+PF09113,N-glycanase_C,DTR_827005,"Peptide-N-glycosidase F, C terminal",HGM,17253,92,4,0,0,13,Host-Associated,Human,Gut,GCA_003502105.1
