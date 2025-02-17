@@ -1,7 +1,6 @@
 # Load required packages
 library(dplyr)
 library(readr)
-
 # 1. Read and combine your search-result TSV files
 # Adjust the pattern if your file names differ.
 tsv_files <- list.files(pattern = "^SearchResults-.*\\.tsv$")
@@ -23,18 +22,24 @@ search_results <- search_results %>%
 # so that it matches the column name in your reference file.
 search_results <- search_results %>% 
   rename(accession = Accession)
-
+search_results <- search_results %>%
+  rename(name = Name, pfam_description = Description)
 # 3. Read the additional PFAM entries from the CSV file.
 old_pfam <- read.csv("jr_pfam.csv", header = TRUE, stringsAsFactors = FALSE)
 # Rename the column containing PFAM accessions to "accession" for consistency.
 old_pfam <- old_pfam %>% 
   rename(accession = PFAM.Accession.Number)
-
+old_pfam <- old_pfam %>%
+  rename(name = Domain.Name)
+write.csv(search_results, "search_results.csv", row.names = FALSE)
+write.csv(old_pfam, "old_pfam.csv", row.names = FALSE)
 # 4. Combine PFAM accession values from both sources.
 #    We use union() to get the unique PFAM accession values from both datasets.
+all_pfams_df <- full_join(search_results, old_pfam, by = "accession")
 all_pfams <- union(search_results$accession, old_pfam$accession)
 all_pfams_df <- data.frame(accession = all_pfams, stringsAsFactors = FALSE)
-
+levels(all_pfams_df$accession)
+all_pfams_df$accession <- as.factor(all_pfams_df$accession)
 # Or, if you prefer using tibble (from the tidyverse):
 library(tibble)
 all_pfams_df <- tibble(accession = all_pfams)
