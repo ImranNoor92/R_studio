@@ -3,9 +3,11 @@ library(highcharter)
 library(dplyr)
 library(htmlwidgets)
 library(webshot)
+library(tidyverse)
+getwd()
 setwd("branch/jr")
 dir()
-hmmer_jr <- read.csv("hmmer_jr.csv")
+hmmer_jr <- read.csv("jr_fold_classified.csv")
 # Aggregate counts for each Biome Level
 summary_biome1 <- hmmer_jr %>% 
   group_by(biome1) %>% 
@@ -30,7 +32,7 @@ pl_biome1 <- highchart() %>%
   hc_title(text = "Biome Level 1 Sunburst Chart") %>%
   hc_add_series(name = "Biome Level 1", data = dout_biome1) %>%
   hc_plotOptions(series = list(dataLabels = list(format = "{point.name}"))) %>%
-  hc_add_theme(hc_theme_economist())
+  hc_add_theme(hc_theme_null())
 
 pl_biome1
 
@@ -40,7 +42,7 @@ pl_biome2 <- highchart() %>%
   hc_title(text = "Biome Level 2 Sunburst Chart") %>%
   hc_add_series(name = "Biome Level 2", data = dout_biome2) %>%
   hc_plotOptions(series = list(dataLabels = list(format = "{point.name}"))) %>%
-  hc_add_theme(hc_theme_538())
+  hc_add_theme(hc_theme_null())
 
 pl_biome2
 
@@ -49,6 +51,6 @@ pl_biome3 <- highchart() %>%
   hc_title(text = "Biome Level 3 Sunburst Chart") %>%
   hc_add_series(name = "Biome Level 3", data = dout_biome3) %>%
   hc_plotOptions(series = list(dataLabels = list(format = "{point.name}"))) %>%
-  hc_add_theme(hc_theme_alone())
-k
+  hc_add_theme(hc_theme_null())
+
 pl_biome3

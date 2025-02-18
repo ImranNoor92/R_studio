@@ -1,9 +1,18 @@
 ########################################################################################
-hmmer <- read.csv("hmmer_clean_by_t.csv")
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(forcats)
+library(viridis)
+library(stringr)
+library(dplyr)
+library(patchwork)
+#hmmer <- read.csv("hmmer_clean_by_t.csv")
 #Hmmer data from hmmer_clean_by_t.csv is upto date the cleanest, neatest data.
 # I will be using these dataset for further analysis (02/18/2025)
 
-
+hmmer <- read.csv("jr_fold_classified.csv")
+#Cleanest data so far
 
 
 ########################################################################################
@@ -36,8 +45,6 @@ head(jr_non_viral_genes)
 # Define keywords for viral origin in description column
 # Step 1: 
 # Load required libraries
-library(stringr)
-library(dplyr)
 
 # Convert all descriptions to lowercase, trim spaces, and fix encoding
 hmmer$description_clean <- tolower(trimws(iconv(hmmer$description, to="ASCII//TRANSLIT")))
@@ -118,7 +125,7 @@ print(origin_summary_df)
 
 # View first few rows
 head(hmmer_origin)
-
+hmmer_origin <- write.csv(hmmer_origin,"hmmer_origin.csv")
 
 ########################################################################################
 
@@ -198,10 +205,248 @@ function_summary_df <- as.data.frame(function_summary)
 
 # Print summary
 print(function_summary_df)
-
+write.csv(hmmer_function,"hmmer_function.csv")
 # View first few rows of the updated dataset
 head(hmmer_function)
+#hmmer_function <- write.csv(hmmer_function,"hmmer_function.csv")
 
-# Save as CSV
-write.csv(hmmer, "jr_fold_classified.csv", row.names = FALSE)
-jr_fold_classified <- read.csv("jr_fold_classified.csv")
+
+########################################################################################
+#Plotting
+#load all data
+jrf_classified <- read.csv("jr_fold_classified.csv")
+#Plot the origin
+# Count occurrences of each origin category
+origin_summary_df <- jrf_classified %>%
+  count(origin)  # Creates a count dataframe
+
+# Create the correct bar plot
+origin_plot <- ggplot(origin_summary_df, aes(x = n, y = fct_reorder(origin, n), fill = origin)) +
+  geom_col() +  # Use geom_col() to plot precomputed counts
+  scale_fill_viridis_d(option = "magma") +
+  theme_minimal() +
+  labs(title = "Distribution of JRF Origins",
+       x = "Count", y = "Origin") +
+  theme(legend.position = "none")
+origin_plot
+#Plot the function
+# Count occurrences of each functional category
+function_summary_df <- jrf_classified %>%
+  count(functional_category)  # Creates a count dataframe
+
+# Create the correct bar plot
+function_plot <-ggplot(function_summary_df, aes(x = n, y = fct_reorder(functional_category, n), fill = functional_category)) +
+  geom_col() +  # Use geom_col() to plot precomputed counts
+  scale_fill_viridis_d(option = "viridis") +
+  theme_minimal() +
+  labs(title = "Distribution of Functional Categories in JRFs",
+       x = "Count", y = "Functional Category") +
+  theme(legend.position = "none")
+function_plot
+#Plot the origin and function together
+# Arrange the plots side by side
+combined_plot <- origin_plot + function_plot + plot_layout(ncol = 2)
+
+# Display the combined plot
+combined_plot
+
+########################################################################################
+#Viral plotting
+jr_viral <- read.csv("jrf_viral.csv")
+colnames(jr_viral)
+# Summarize counts for each Biome1, Biome2, and T-number
+# Summarize counts for each Biome1, Biome2, and T-number
+heatmap_data <- jr_viral %>%
+  count(biome1, biome2, T_number)  # Keep T_number as a variable
+heatmap_data$T_number <- as.factor(heatmap_data$T_number)
+
+heatmap_data$short_labels <- substr(interaction(heatmap_data$biome1, heatmap_data$biome2, sep = " - "), 1, 30)
+
+ggplot(heatmap_data, aes(x = T_number, y = short_labels)) +
+  geom_tile(aes(fill = n), color = "white") +
+  scale_fill_viridis_c(option = "magma") +
+  theme_minimal(base_size = 14) +
+  labs(title = "Heatmap of Biome1, Biome2, and T-number",
+       x = "T-number",
+       y = "Biome Categories",
+       fill = "Count") +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 12),
+    axis.text.y = element_text(size = 12),
+    plot.title = element_text(size = 16, face = "bold")
+  )
+  ##########################################################################################
+# Create the heatmap with Biome1 on X-axis, Biome2 on Y-axis, and T-number as color
+ggplot(heatmap_data, aes(x = biome1, y = biome2, fill = T_number)) +
+  geom_tile(color = "white") +  # Add white grid lines for clarity
+  scale_fill_viridis_d(option = "plasma") +  # Plasma color for softer contrast
+  theme_minimal(base_size = 14) +
+  labs(title = "Biome1 vs Biome2 with T-number as Color",
+       x = "Biome 1",
+       y = "Biome 2",
+       fill = "T-number") +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 12),  # Rotate X-axis labels
+    axis.text.y = element_text(size = 12),
+    plot.title = element_text(size = 16, face = "bold")
+  )
+
+heatmap_data$T_number <- as.numeric(as.character(heatmap_data$T_number))
+
+# Create the heatmap with a smooth transition
+ggplot(heatmap_data, aes(x = biome1, y = biome2, fill = T_number)) +
+  geom_tile(color = NA) +  # Remove grid lines for a smoother appearance
+  scale_fill_gradientn(colors = c(low = "darkgray", high = "orange"), 
+                       name = "T-number") +  # Soft purple gradient
+  theme_minimal(base_size = 14) +
+  labs(title = "Smooth Heatmap of Biome1 vs Biome2 with T-number",
+       x = "Biome 1",
+       y = "Biome 2",
+       fill = "T-number") +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 12),
+    axis.text.y = element_text(size = 12),
+    plot.title = element_text(size = 16, face = "bold"),
+    panel.background = element_rect(fill = "grey90", color = NA),  # Light grey background for soft blending
+    panel.grid.major = element_blank(),  # Remove grid lines for a smoother effect
+    panel.grid.minor = element_blank()
+  )
+  ########################################################################################
+
+
+library(dplyr)
+
+# Reassign T-number based on contig_length
+jr_viral <- jr_viral %>%
+  mutate(T_number = case_when(
+    contig_length <= 11500 ~ 1,   # T=1 for contigs ≤ 11,500
+    contig_length <= 15000 ~ 3,   # T=3 for contigs >11,500 and ≤ 15,000
+    contig_length <= 20000 ~ 4,   # T=4 for contigs >15,000 and ≤ 20,000
+    TRUE ~ NA_real_              # Assign NA if outside range
+  ))
+
+# Convert T_number to a factor for better visualization
+jr_viral$T_number <- factor(jr_viral$T_number, levels = c(1, 3, 4))
+
+# Check if reassignment is correct
+table(jr_viral$T_number)
+
+# View first few rows after reassignment
+head(jr_viral)
+
+
+
+jr_viral$accession <- as.factor(jr_viral$accession)
+levels(jr_viral$accession)
+str(jr_viral$accession)
+multiple_t_box <- ggplot(jr_viral, aes(x = accession, y = as.factor(T_number))) +
+  geom_boxplot(outlier.shape = NA, fill = "lightblue", alpha = 0.4) +  # Transparent boxplot
+  geom_jitter(width = 0.2, size = 3, aes(color = as.factor(T_number))) +  # Scatter effect
+  scale_color_viridis_d() +
+  theme_minimal() +
+  labs(title = "Variation of T-numbers within Pfam Accessions",
+       x = "Pfam Accession",
+       y = "T-number",
+       color = "T-number") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 10))
+multiple_t_box
+########################################################################################
+
+# Generate synthetic data
+set.seed(42)
+contig_lengths <- sample(500:20000, 500, replace=TRUE)
+
+# Create DataFrame
+df <- data.frame("Contig_Length_bp" = contig_lengths)
+
+# Assign T-number
+df <- df %>%
+  mutate(T_number = case_when(
+    Contig_Length_bp <= 11500 ~ "T=1",
+    Contig_Length_bp <= 15000 ~ "T=3",
+    Contig_Length_bp <= 20000 ~ "T=4",
+    TRUE ~ "Unknown"
+  ))
+
+# Plot histogram with bins of 500
+ggplot(df, aes(x = Contig_Length_bp, fill = T_number)) +
+  geom_histogram(binwidth = 500, alpha=0.7, color="black") +
+  scale_fill_viridis_d(option = "magma") +
+  labs(title = "Distribution of Contig Lengths with T-number Assignments",
+       x = "Contig Length (bp)", y = "Count") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+########################################################################################
+# Load required libraries
+library(dplyr)
+library(ggplot2)
+
+# Identify Pfam accessions that have both T=1 and either T=3 or T=4
+pfam_multiple_t <- jr_viral %>%
+  group_by(accession) %>%
+  summarize(unique_t = list(unique(T_number))) %>%
+  filter(any(c(1,3) %in% unique_t) | any(c(1,4) %in% unique_t)) %>%
+  pull(accession)
+
+# Filter the dataset to only include those Pfam accessions
+jr_viral_filtered <- jr_viral %>%
+  filter(accession %in% pfam_multiple_t)
+
+# View the first few rows to confirm
+head(jr_viral_filtered)
+# Plot Biome1 vs Biome2, colored by T-number
+ggplot(jr_viral_filtered, aes(x = biome1, fill = as.factor(T_number))) +
+  geom_bar(position = "dodge") +
+  scale_fill_viridis_d(name = "T-number") +
+  theme_minimal() +
+  labs(title = "Distribution of Pfam Accessions with Multiple T-numbers by Biome",
+       x = "Biome1", y = "Count") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+        ########################################################################################
+ggplot(jr_viral_filtered, aes(x = biome1, fill = as.factor(T_number))) +
+  geom_bar(position = "dodge") +
+  scale_fill_viridis_d(name = "T-number") +
+  theme_minimal() +
+  labs(title = "T-number Distribution Across Biomes for Multi-T Pfam Accessions",
+       x = "Biome1", y = "Count") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_wrap(~accession, scales = "free_y")  # Separate plots for each Pfam Accession
+#####################################
+library(ggplot2)
+library(dplyr)
+
+# Filter dataset to only include Pfam accessions that appear in multiple T-numbers
+pfam_t_counts <- jr_viral_filtered %>%
+  group_by(accession) %>%
+  summarise(unique_t = n_distinct(T_number)) %>%
+  filter(unique_t > 1)
+
+# Subset original dataset to include only these accessions
+multi_t_pfam <- jr_viral_filtered %>%
+  filter(accession %in% pfam_t_counts$accession)
+
+# Scatter plot of T-number, faceted by Pfam accession
+library(ggplot2)
+library(dplyr)
+
+# Filter dataset to only include Pfam accessions that appear in multiple T-numbers
+pfam_t_counts <- jr_viral_filtered %>%
+  group_by(accession) %>%
+  summarise(unique_t = n_distinct(T_number)) %>%
+  filter(unique_t > 1)
+
+# Subset original dataset to include only these accessions
+multi_t_pfam <- jr_viral_filtered %>%
+  filter(accession %in% pfam_t_counts$accession)
+
+# Scatter plot of T-number, faceted by Pfam accession
+ggplot(multi_t_pfam, aes(x = as.factor(T_number), y = biome1, color = as.factor(T_number))) +
+  geom_point(size = 3, alpha = 0.8) +
+  scale_color_viridis_d(name = "T-number") +
+  theme_minimal() +
+  labs(title = "Pfam Accessions with Multiple T-numbers",
+       x = "T-number", y = "Biome1") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_wrap(~accession, scales = "free_y")  # Facet by Pfam accession

@@ -1,0 +1,85 @@
+﻿sl,accession,target_name,query_name_clean,description,data_source,contig_length,dtr_length,genes_viral,genes_plasmid,genes_microbial,genes_unknown,biome1,biome2,biome3,gca_name,T_number,origin,functional_category
+1,PF02226,Pico_P1A,DTR_133317,Picornavirus coat protein (VP4),IMG/M,10337,123,2,0,0,13,Terrestrial,Soil,NA,NULL,3,Viral,Capsid Protein
+2,PF18628,P2_N,DTR_266119,Viral coat protein P2 N-terminal domain,IMG/M,10256,127,3,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+3,PF18628,P2_N,DTR_266119,Viral coat protein P2 N-terminal domain,IMG/M,10256,127,3,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+4,PF02226,Pico_P1A,DTR_851643,Picornavirus coat protein (VP4),HGM,8605,141,1,0,0,11,Host-Associated,Human,Gut,NULL,3,Viral,Capsid Protein
+5,PF02226,Pico_P1A,DTR_851643,Picornavirus coat protein (VP4),HGM,8605,141,1,0,0,11,Host-Associated,Human,Gut,NULL,3,Viral,Capsid Protein
+6,PF03678,Adeno_hexon_C,DTR_009104,"Hexon, adenovirus major coat protein, C-terminal domain",IMG/M,14358,101,4,0,0,13,Aquatic,Non-marine saline,Hypersaline,NULL,3,Viral,Capsid Protein
+7,PF18628,P2_N,DTR_265858,Viral coat protein P2 N-terminal domain,IMG/M,10276,127,4,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+8,PF18628,P2_N,DTR_265858,Viral coat protein P2 N-terminal domain,IMG/M,10276,127,4,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+9,PF03689,Nepo_coat_N,DTR_233894,"Nepovirus coat protein, N-terminal domain",IMG/M,17614,99,6,0,0,22,Aquatic,Freshwater,Lentic,NULL,4,Viral,Capsid Protein
+10,PF03689,Nepo_coat_N,DTR_233894,"Nepovirus coat protein, N-terminal domain",IMG/M,17614,99,6,0,0,22,Aquatic,Freshwater,Lentic,NULL,4,Viral,Capsid Protein
+11,PF03689,Nepo_coat_N,DTR_233894,"Nepovirus coat protein, N-terminal domain",IMG/M,17614,99,6,0,0,22,Aquatic,Freshwater,Lentic,NULL,4,Viral,Capsid Protein
+12,PF02956,TT_ORF1,DTR_302905,TT viral orf 1,IMG/M,13212,81,4,0,0,20,Terrestrial,Soil,NA,NULL,3,Viral,Other
+13,PF16903,Capsid_N,DTR_288704,Major capsid protein N-terminus,IMG/M,16213,127,3,0,0,18,Aquatic,Freshwater,Lentic,NULL,4,Viral,Capsid Protein
+14,PF02956,TT_ORF1,DTR_051276,TT viral orf 1,IMG/M,5203,80,1,0,0,9,Aquatic,Marine,Oceanic,NULL,1,Viral,Other
+15,PF18628,P2_N,DTR_037686,Viral coat protein P2 N-terminal domain,IMG/M,10209,60,4,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+16,PF18628,P2_N,DTR_037686,Viral coat protein P2 N-terminal domain,IMG/M,10209,60,4,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+17,PF16903,Capsid_N,DTR_284039,Major capsid protein N-terminus,IMG/M,16213,127,3,0,0,20,Aquatic,Freshwater,Lentic,NULL,4,Viral,Capsid Protein
+18,PF02336,Denso_VP4,DTR_636293,Capsid protein VP4,MGnify,17396,35,3,0,0,19,Host-Associated,Human,Gut,GCA_001308795.2,4,Viral,Capsid Protein
+19,PF18628,P2_N,DTR_265559,Viral coat protein P2 N-terminal domain,IMG/M,10276,127,4,0,0,19,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+20,PF18628,P2_N,DTR_265559,Viral coat protein P2 N-terminal domain,IMG/M,10276,127,4,0,0,19,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+21,PF18628,P2_N,DTR_037154,Viral coat protein P2 N-terminal domain,IMG/M,10188,59,3,0,0,19,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+22,PF18628,P2_N,DTR_037154,Viral coat protein P2 N-terminal domain,IMG/M,10188,59,3,0,0,19,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+23,PF03678,Adeno_hexon_C,DTR_008904,"Hexon, adenovirus major coat protein, C-terminal domain",IMG/M,14358,101,4,0,0,13,Aquatic,Non-marine saline,Hypersaline,NULL,3,Viral,Capsid Protein
+24,PF03391,Nepo_coat,DTR_024606,"Nepovirus coat protein, central domain",IMG/M,13367,92,2,0,0,20,Terrestrial,Soil,Loam,NULL,3,Viral,Capsid Protein
+25,PF18628,P2_N,DTR_051147,Viral coat protein P2 N-terminal domain,IMG/M,11384,100,1,0,0,24,Aquatic,Marine,Coastal,NULL,3,Viral,Capsid Protein
+26,PF18628,P2_N,DTR_051147,Viral coat protein P2 N-terminal domain,IMG/M,11384,100,1,0,0,24,Aquatic,Marine,Coastal,NULL,3,Viral,Capsid Protein
+27,PF02956,TT_ORF1,DTR_294138,TT viral orf 1,IMG/M,13212,81,4,0,0,20,Host-Associated,Plants,Rhizosphere,NULL,3,Viral,Other
+28,PF02956,TT_ORF1,DTR_293449,TT viral orf 1,IMG/M,13212,81,4,0,0,20,Host-Associated,Plants,Rhizoplane,NULL,3,Viral,Other
+29,PF18628,P2_N,DTR_265524,Viral coat protein P2 N-terminal domain,IMG/M,10224,95,3,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+30,PF18628,P2_N,DTR_265524,Viral coat protein P2 N-terminal domain,IMG/M,10224,95,3,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+31,PF18628,P2_N,DTR_037208,Viral coat protein P2 N-terminal domain,IMG/M,10725,60,3,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+32,PF18628,P2_N,DTR_037208,Viral coat protein P2 N-terminal domain,IMG/M,10725,60,3,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+33,PF02226,Pico_P1A,DTR_482361,Picornavirus coat protein (VP4),CIBIO,8605,141,1,0,0,11,Host-Associated,Human,Gut,NULL,3,Viral,Capsid Protein
+34,PF02226,Pico_P1A,DTR_482361,Picornavirus coat protein (VP4),CIBIO,8605,141,1,0,0,11,Host-Associated,Human,Gut,NULL,3,Viral,Capsid Protein
+35,PF18628,P2_N,DTR_051020,Viral coat protein P2 N-terminal domain,IMG/M,11404,120,1,0,0,23,Aquatic,Marine,Coastal,NULL,3,Viral,Capsid Protein
+36,PF18628,P2_N,DTR_051020,Viral coat protein P2 N-terminal domain,IMG/M,11404,120,1,0,0,23,Aquatic,Marine,Coastal,NULL,3,Viral,Capsid Protein
+37,PF18628,P2_N,DTR_265978,Viral coat protein P2 N-terminal domain,IMG/M,10256,127,3,0,0,19,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+38,PF18628,P2_N,DTR_265978,Viral coat protein P2 N-terminal domain,IMG/M,10256,127,3,0,0,19,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+39,PF12264,Waikav_capsid_1,DTR_197547,Waikavirus capsid protein 1,IMG/M,13966,123,2,0,0,19,Aquatic,Freshwater,Ice,NULL,3,Viral,Capsid Protein
+40,PF11492,Dicistro_VP4,DTR_099178,"Cricket paralysis virus, VP4",IMG/M,11713,123,3,0,0,24,Aquatic,Freshwater,Groundwater,NULL,3,Viral,Capsid Protein
+41,PF11492,Dicistro_VP4,DTR_099178,"Cricket paralysis virus, VP4",IMG/M,11713,123,3,0,0,24,Aquatic,Freshwater,Groundwater,NULL,3,Viral,Capsid Protein
+42,PF18628,P2_N,DTR_037642,Viral coat protein P2 N-terminal domain,IMG/M,10197,48,4,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+43,PF18628,P2_N,DTR_037642,Viral coat protein P2 N-terminal domain,IMG/M,10197,48,4,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+44,PF18628,P2_N,DTR_037665,Viral coat protein P2 N-terminal domain,IMG/M,10189,60,3,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+45,PF18628,P2_N,DTR_037665,Viral coat protein P2 N-terminal domain,IMG/M,10189,60,3,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+46,PF00760,Cucumo_coat,DTR_124782,Cucumovirus coat protein,IMG/M,5991,123,1,0,0,5,Engineered,Wastewater,Anaerobic digestor,NULL,1,Viral,Capsid Protein
+47,PF02956,TT_ORF1,DTR_331513,TT viral orf 1,IMG/M,10355,127,1,0,0,22,Terrestrial,Deep subsurface,NA,NULL,3,Viral,Other
+48,PF18628,P2_N,DTR_208552,Viral coat protein P2 N-terminal domain,IMG/M,12447,123,2,0,0,26,Aquatic,Sediment,NA,NULL,3,Viral,Capsid Protein
+49,PF18628,P2_N,DTR_208552,Viral coat protein P2 N-terminal domain,IMG/M,12447,123,2,0,0,26,Aquatic,Sediment,NA,NULL,3,Viral,Capsid Protein
+50,PF18628,P2_N,DTR_265689,Viral coat protein P2 N-terminal domain,IMG/M,10256,127,3,0,0,21,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+51,PF18628,P2_N,DTR_265689,Viral coat protein P2 N-terminal domain,IMG/M,10256,127,3,0,0,21,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+52,PF09018,Phage_Capsid_P3,DTR_300199,P3 major capsid protein,IMG/M,17122,127,7,0,0,25,Aquatic,Freshwater,River,NULL,4,Viral,Capsid Protein
+53,PF18628,P2_N,DTR_265302,Viral coat protein P2 N-terminal domain,IMG/M,10583,127,4,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+54,PF18628,P2_N,DTR_265302,Viral coat protein P2 N-terminal domain,IMG/M,10583,127,4,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+55,PF03678,Adeno_hexon_C,DTR_011528,"Hexon, adenovirus major coat protein, C-terminal domain",IMG/M,14358,101,4,0,0,13,Aquatic,Non-marine saline,Hypersaline,NULL,3,Viral,Capsid Protein
+56,PF16903,Capsid_N,DTR_024522,Major capsid protein N-terminus,IMG/M,16191,67,2,0,0,22,Aquatic,Freshwater,Lentic,NULL,4,Viral,Capsid Protein
+57,PF00760,Cucumo_coat,DTR_676592,Cucumovirus coat protein,MGnify,5923,55,1,0,0,6,Engineered,Wastewater,NA,NULL,1,Viral,Capsid Protein
+58,PF02956,TT_ORF1,DTR_264223,TT viral orf 1,IMG/M,9396,127,3,0,0,16,Aquatic,Freshwater,River,NULL,3,Viral,Other
+59,PF00738,Polyhedrin,DTR_534463,Polyhedrin,CIBIO,13319,21,3,0,0,17,Host-Associated,Human,Gut,NULL,3,Viral,Capsid Protein
+60,PF18628,P2_N,DTR_648228,Viral coat protein P2 N-terminal domain,MGnify,12353,55,2,0,0,17,Engineered,Wastewater,NA,NULL,3,Viral,Capsid Protein
+61,PF18628,P2_N,DTR_648228,Viral coat protein P2 N-terminal domain,MGnify,12353,55,2,0,0,17,Engineered,Wastewater,NA,NULL,3,Viral,Capsid Protein
+62,PF18628,P2_N,DTR_648228,Viral coat protein P2 N-terminal domain,MGnify,12353,55,2,0,0,17,Engineered,Wastewater,NA,NULL,3,Viral,Capsid Protein
+63,PF00983,Tymo_coat,DTR_315726,Tymovirus coat protein,IMG/M,12783,99,1,0,0,27,Aquatic,Freshwater,Lake,NULL,3,Viral,Capsid Protein
+64,PF18628,P2_N,DTR_037153,Viral coat protein P2 N-terminal domain,IMG/M,10316,59,4,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+65,PF18628,P2_N,DTR_037153,Viral coat protein P2 N-terminal domain,IMG/M,10316,59,4,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+66,PF18628,P2_N,DTR_641932,Viral coat protein P2 N-terminal domain,MGnify,9179,55,3,0,0,17,Aquatic,Marine,NA,NULL,3,Viral,Capsid Protein
+67,PF18628,P2_N,DTR_641932,Viral coat protein P2 N-terminal domain,MGnify,9179,55,3,0,0,17,Aquatic,Marine,NA,NULL,3,Viral,Capsid Protein
+68,PF00760,Cucumo_coat,DTR_713157,Cucumovirus coat protein,MGnify,17421,28,7,0,0,18,Host-Associated,Human,Gut,GCA_000915675.1,4,Viral,Capsid Protein
+69,PF00760,Cucumo_coat,DTR_773801,Cucumovirus coat protein,HGM,17525,41,7,0,0,19,Host-Associated,Human,Gut,GCA_000915675.1,4,Viral,Capsid Protein
+70,PF18628,P2_N,DTR_265747,Viral coat protein P2 N-terminal domain,IMG/M,10312,99,4,0,0,21,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+71,PF18628,P2_N,DTR_265747,Viral coat protein P2 N-terminal domain,IMG/M,10312,99,4,0,0,21,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+72,PF16903,Capsid_N,DTR_280192,Major capsid protein N-terminus,IMG/M,16185,99,3,0,0,19,Aquatic,Freshwater,Lentic,NULL,4,Viral,Capsid Protein
+73,PF18628,P2_N,DTR_038017,Viral coat protein P2 N-terminal domain,IMG/M,10189,40,4,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+74,PF18628,P2_N,DTR_038017,Viral coat protein P2 N-terminal domain,IMG/M,10189,40,4,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+75,PF18628,P2_N,DTR_265531,Viral coat protein P2 N-terminal domain,IMG/M,10341,127,4,0,0,21,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+76,PF18628,P2_N,DTR_265531,Viral coat protein P2 N-terminal domain,IMG/M,10341,127,4,0,0,21,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+77,PF18628,P2_N,DTR_265531,Viral coat protein P2 N-terminal domain,IMG/M,10341,127,4,0,0,21,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+78,PF18628,P2_N,DTR_265977,Viral coat protein P2 N-terminal domain,IMG/M,10384,127,4,0,0,21,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+79,PF18628,P2_N,DTR_265977,Viral coat protein P2 N-terminal domain,IMG/M,10384,127,4,0,0,21,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+80,PF09018,Phage_Capsid_P3,DTR_295953,P3 major capsid protein,IMG/M,18519,127,1,0,0,38,Host-Associated,Plants,Rhizoplane,NULL,4,Viral,Capsid Protein
+81,PF18628,P2_N,DTR_265484,Viral coat protein P2 N-terminal domain,IMG/M,10792,127,3,0,0,21,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+82,PF18628,P2_N,DTR_265484,Viral coat protein P2 N-terminal domain,IMG/M,10792,127,3,0,0,21,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+83,PF18628,P2_N,DTR_036784,Viral coat protein P2 N-terminal domain,IMG/M,10181,52,3,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
+84,PF18628,P2_N,DTR_036784,Viral coat protein P2 N-terminal domain,IMG/M,10181,52,3,0,0,20,Aquatic,Freshwater,Sediment,NULL,3,Viral,Capsid Protein
