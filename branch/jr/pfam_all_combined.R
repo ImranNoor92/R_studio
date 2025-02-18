@@ -34,14 +34,15 @@ old_pfam <- old_pfam %>%
 #    We use union() to get the unique PFAM accession values from both datasets.
 all_pfams <- union(search_results$accession, old_pfam$accession)
 all_pfams_df <- data.frame(accession = all_pfams, stringsAsFactors = FALSE)
-
+all_pfams_df <- read.csv("pfam_list_detailed.csv")
+colnames(all_pfams_df)
 # Or, if you prefer using tibble (from the tidyverse):
 library(tibble)
 all_pfams_df <- tibble(accession = all_pfams)
 # 5. Read your main reference file.
 #    Replace "your_reference_file.tsv" with the actual filename.
-reference <- read_csv("All_DTRs_domtblout.csv", col_types = cols())
-
+reference <- read.csv("All_DTRs_domtblout.csv")
+colnames(reference)
 # 6. Clean the reference file’s 'accession' column by removing the decimal part.
 #    For example, this turns "PF00001.1" into "PF00001".
 reference <- reference %>%
@@ -49,14 +50,13 @@ reference <- reference %>%
 
 # 7. Filter the reference file so that only rows with a PFAM accession in 'all_pfams' are retained.
 final_reference <- reference %>% 
-  filter(accession %in% all_pfams)
+  filter(accession %in% all_pfams_df$accession)
 #make acession column in final_reference factor then check levels
 final_reference$accession <- as.factor(final_reference$accession)
 final_reference$target_name <- as.factor(final_reference$target_name)
 levels(final_reference$accession)
-levels(final_reference$target_name)
-all_pfams_df$accession <- as.factor(all_pfams_df$accession)
-levels(all_pfams_df$accession)
+write.csv(data.frame(accession = levels(final_reference$accession)), "unique_pfam.csv", row.names = FALSE)
+
 # 8. Export the final filtered reference file as a CSV.
 write_csv(final_reference, "final_joined.csv")
 library(dplyr)
@@ -68,12 +68,10 @@ final_reference <- final_reference %>%
 
 # Check the transformation:
 head(final_reference$query_name_clean)
-
+biome_info <- read.csv("DTRs_20kb.csv")
 # Now, perform the left join using the cleaned column from final_reference 
 # and matching it to the "genome_id" column in biome_info.
 hmmer <- left_join(final_reference, biome_info, by = c("query_name_clean" = "genome_id"))
-hmmer <- hmmer %>%
-  mutate(across(c(biome1, biome2, biome3), ~ gsub("-", "_", .)))
-hmmer <- hmmer %>%
-  distinct(accession, .keep_all = TRUE)
-hmmer_jr <- read.csv("hmmer_jre.csv")
+write_csv(hmmer, "hmmer.csv")
+# Check the structure of the resulting data frame:
+str(hmmer)
